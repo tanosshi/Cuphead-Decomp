@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: bullet_bee_dust_trail_0001
+  m_Rect:
+    serializedVersion: 2
+    x: 396.05972
+    y: 146.02675
+    width: 93.91352
+    height: 103.9465
+  m_Offset: {x: 8.983507, y: 7.999998}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 0.5956572, y: 0.57696265}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 0178742f7ca8ebf4a9ed84603ca04b98, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 18
+      topology: 0
+      firstVertex: 0
+      vertexCount: 8
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 070006000500040005000600010005000400030001000400000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 8
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 160
+      _typelessdata: 000018420000f0410000000000000000000000000000c041000070c200000000000000000000000000001842000040c20000000000000000000000000000000000003042000000000000000000000000000000c20000304200000000000000000000000000004cc2000070c2000000000000000000000000000060c200008040000000000000000000000000000060c2000048c2000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 396.05972
+      y: 146.02675
+      width: 93.91352
+      height: 103.9465
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 321, y: 86}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 452, z: 1, w: 206}

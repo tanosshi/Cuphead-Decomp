@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ek_bottle_disappear_fx_0003
+  m_Rect:
+    serializedVersion: 2
+    x: 799.0761
+    y: 598.0761
+    width: 83.84776
+    height: 212.89711
+  m_Offset: {x: 212.99998, y: -241.52467}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 3.040318, y: -0.6344667}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: e680f718bc6e6774bb5eb05c2003351a, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 12
+      topology: 0
+      firstVertex: 0
+      vertexCount: 6
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 050004000100030001000400000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 6
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 120
+      _typelessdata: 000045c30000ae4300000000000000000000000000002bc30000074300000000000000000000000000002bc300009443000000000000000000000000000070c30000ae4300000000000000000000000000007fc30080844300000000000000000000000000007fc300000743000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 799.0761
+      y: 598.0761
+      width: 83.84776
+      height: 212.89711
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 913.5, y: 248.5}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 1054, z: 1, w: 463}

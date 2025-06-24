@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: brick_fall_0005
+  m_Rect:
+    serializedVersion: 2
+    x: 399.02673
+    y: 477.0761
+    width: 91.94649
+    height: 61.897125
+  m_Offset: {x: 2.5000057, y: 58.475315}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 0.5271898, y: 1.4447178}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 96453ba59110277458984b9bd7c6e583, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 24
+      topology: 0
+      firstVertex: 0
+      vertexCount: 10
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 090008000600070006000800050006000700040006000500030004000500010004000300000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 10
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 200
+      _typelessdata: 00002e4200007ec2000000000000000000000000000006420000b3c200000000000000000000000000002e420000a5c20000000000000000000000000000cc410000f4c1000000000000000000000000000094410000b3c2000000000000000000000000000058c10000dcc10000000000000000000000000000dcc10000a1c2000000000000000000000000000022c20000dcc1000000000000000000000000000042c200001ac2000000000000000000000000000042c200004ac2000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 399.02673
+      y: 477.0761
+      width: 91.94649
+      height: 61.897125
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 225, y: 344}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 447.5, z: 1, w: 566.5}

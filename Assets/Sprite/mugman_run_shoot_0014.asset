@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mugman_run_shoot_0014
+  m_Rect:
+    serializedVersion: 2
+    x: 359.0429
+    y: 0.037704468
+    width: 135.93033
+    height: 145.88618
+  m_Offset: {x: -7.0080714, y: -52.4208}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.9142857
+  m_Pivot: {x: 0.44844365, y: 0.14067331}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: e6129f25f8c1228428829525f17c75ff, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 12
+      topology: 0
+      firstVertex: 0
+      vertexCount: 6
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 050004000100030001000400000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 6
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 120
+      _typelessdata: 00f09642333309430000000000000000000000000010a44265e6b3c10000000000000000000000000010a442331b0843000000000000000000000000006010c233330943000000000000000000000000007085c267e69742000000000000000000000000007085c265e6b3c1000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 359.0429
+      y: 0.037704468
+      width: 135.93033
+      height: 145.88618
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 164, y: -235.44}
+    settingsRaw: 65
+    uvTransform: {x: 0.9142857, y: 420, z: 0.9142857, w: 20.559998}

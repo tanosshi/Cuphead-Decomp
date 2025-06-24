@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mugman_shoot_up_0001
+  m_Rect:
+    serializedVersion: 2
+    x: 760.0761
+    y: 1497.0762
+    width: 94.910965
+    height: 175.89711
+  m_Offset: {x: 3.468389, y: -68.46468}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.9142857
+  m_Pivot: {x: 0.5365436, y: 0.11076857}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: e1f258c1a5c82f1449fcb02df2bd2b65, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 9
+      topology: 0
+      firstVertex: 0
+      vertexCount: 5
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 040003000100000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 5
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 100
+      _typelessdata: 004026c2331b2b43000000000000000000000000008040426526abc100000000000000000000000000804042331b2b4300000000000000000000000000205fc2335b224300000000000000000000000000205fc26526abc1000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 760.0761
+      y: 1497.0762
+      width: 94.910965
+      height: 175.89711
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 555, y: 1260.56}
+    settingsRaw: 65
+    uvTransform: {x: 0.9142857, y: 811, z: 0.9142857, w: 1516.56}

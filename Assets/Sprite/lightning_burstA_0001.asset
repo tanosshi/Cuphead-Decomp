@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: lightning_burstA_0001
+  m_Rect:
+    serializedVersion: 2
+    x: 0.042907715
+    y: 526.0761
+    width: 56.930344
+    height: 74.84775
+  m_Offset: {x: 6.49192, y: 11.499998}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 0.6140327, y: 0.6536452}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 0c956b8e4fd71cb4ab8a35b0851b3bb6, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 24
+      topology: 0
+      firstVertex: 0
+      vertexCount: 10
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 090008000700060007000800030007000600050003000600040003000500000003000400010003000000020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 10
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 200
+      _typelessdata: 0000b0410000803f00000000000000000000000000004041000018c20000000000000000000000000000b0410000a0c1000000000000000000000000000060c1000044c2000000000000000000000000000090c10000d0410000000000000000000000000000b8c10000d0410000000000000000000000000000d8c100006041000000000000000000000000000000c2000044c200000000000000000000000000000cc2000040c000000000000000000000000000000cc2000024c2000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 0.042907715
+      y: 526.0761
+      width: 56.930344
+      height: 74.84775
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -157, y: 383}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 35, z: 1, w: 575}

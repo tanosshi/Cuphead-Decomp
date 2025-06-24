@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: slime_jump_0001
+  m_Rect:
+    serializedVersion: 2
+    x: 957.0761
+    y: 508.0761
+    width: 226.84778
+    height: 196.84778
+  m_Offset: {x: -134.5, y: 114.50001}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: -0.092908606, y: 1.0816678}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 34dc7df711399a642a15781d3eca7978, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 72
+      topology: 0
+      firstVertex: 0
+      vertexCount: 23
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 0100020013001200130002000700120002001600150014000100140015001100140001001300110001001200110013000700110012000600110007001000110006000c00110010000f000c0010000e000c000f000d000c000e000b000c000d0009000c000b00080009000b000a0009000800070002000600050004000100030001000400000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 23
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 460
+      _typelessdata: 0000e8410000b0c20000000000000000000000000000e8410000bec2000000000000000000000000000000420000b6c20000000000000000000000000000d8410000b0c20000000000000000000000000000c8410000b4c20000000000000000000000000000c8410000b6c200000000000000000000000000007442000060c2000000000000000000000000000004420000bac2000000000000000000000000000078430000c4c200000000000000000000000000006e4300004bc300000000000000000000000000007843000010c30000000000000000000000000000634300007cc200000000000000000000000000004443000055c300000000000000000000000000001643000088c100000000000000000000000000001343000080c100000000000000000000000000000443000080c1000000000000000000000000000000430000c8c100000000000000000000000000009242000055c3000000000000000000000000000004420000bec20000000000000000000000000000f0410000c0c20000000000000000000000000000d841000048c30000000000000000000000000000a8410000d0c20000000000000000000000000000a84100001dc3000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 957.0761
+      y: 508.0761
+      width: 226.84778
+      height: 196.84778
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 260, y: 146}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 936, z: 1, w: 721}

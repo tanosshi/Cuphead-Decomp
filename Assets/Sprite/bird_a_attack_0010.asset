@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: bird_a_attack_0010
+  m_Rect:
+    serializedVersion: 2
+    x: 1358.043
+    y: 1261.0762
+    width: 125.93034
+    height: 146.84776
+  m_Offset: {x: 416.49194, y: 13.49999}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 3.8073199, y: 0.5919319}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 07ff912ba740454438ab7fcd26028b35, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 21
+      topology: 0
+      firstVertex: 0
+      vertexCount: 9
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 080007000600000006000700050006000000040005000000030004000000010003000000020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 9
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 180
+      _typelessdata: 00c0b3c30000704200000000000000000000000000c0b0c3000030c100000000000000000000000000c0b0c30000644200000000000000000000000000c0b6c3000082c20000000000000000000000000040b8c3000098c20000000000000000000000000040c3c30000aec20000000000000000000000000040eec30000aec200000000000000000000000000c0efc30000704200000000000000000000000000c0efc3000088c2000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 1358.043
+      y: 1261.0762
+      width: 125.93034
+      height: 146.84776
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 1288, y: 1067}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 1837.5, z: 1, w: 1348}

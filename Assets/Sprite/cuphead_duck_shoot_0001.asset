@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: cuphead_duck_shoot_0001
+  m_Rect:
+    serializedVersion: 2
+    x: 100.02675
+    y: 1526.0762
+    width: 179.94649
+    height: 70.897125
+  m_Offset: {x: -11.999992, y: -17.964691}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.9142857
+  m_Pivot: {x: 0.43331355, y: 0.24660903}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: be0ce4d964debdf459ebc18d39be1d65, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 15
+      topology: 0
+      firstVertex: 0
+      vertexCount: 7
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 060005000100040001000500030001000400000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 7
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 140
+      _typelessdata: 0020df42cdec304200000000000000000000000000a0cd4265a699c10000000000000000000000000020df429499c2c000000000000000000000000000f0b942cdcc694200000000000000000000000000c05ac2cdcc694200000000000000000000000000a0aac2cd4c354200000000000000000000000000a0aac265a699c1000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 100.02675
+      y: 1526.0762
+      width: 179.94649
+      height: 70.897125
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -78, y: 1287.56}
+    settingsRaw: 65
+    uvTransform: {x: 0.9142857, y: 178, z: 0.9142857, w: 1543.56}

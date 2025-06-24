@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: b_mushroom_fx_puff_trail_0005
+  m_Rect:
+    serializedVersion: 2
+    x: 457.02676
+    y: 11.026751
+    width: 27.921934
+    height: 31.946497
+  m_Offset: {x: 0.5122827, y: 1.5000017}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 0.51834697, y: 0.54695356}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: eb4f02108b7f162409ad0d55067887f7, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 27
+      topology: 0
+      firstVertex: 0
+      vertexCount: 11
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 0a0009000700080007000900060007000800040007000600050004000600030004000500010004000300000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 11
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 220
+      _typelessdata: 000048410000084100000000000000000000000000005841000058c1000000000000000000000000000058410000904000000000000000000000000000002040000058410000000000000000000000000000204000008cc1000000000000000000000000000000bf000068410000000000000000000000000000f0c000006841000000000000000000000000000038c100008cc1000000000000000000000000000058c10000f040000000000000000000000000000068c10000c0bf000000000000000000000000000068c1000058c1000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 457.02676
+      y: 11.026751
+      width: 27.921934
+      height: 31.946497
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 445, y: 2}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 471.5, z: 1, w: 28.5}

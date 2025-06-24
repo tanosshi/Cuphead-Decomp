@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ch_shmup_ex_bullet_0014
+  m_Rect:
+    serializedVersion: 2
+    x: 273.0129
+    y: 1249
+    width: 128.91096
+    height: 100.92388
+  m_Offset: {x: -20.968393, y: -1.4619397}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 0.33734205, y: 0.48551443}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: b0503af3dd4f1b14a9e3c6254d376799, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 12
+      topology: 0
+      firstVertex: 0
+      vertexCount: 6
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 050004000300000003000400010003000000020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 6
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 120
+      _typelessdata: 00005a42000050420000000000000000000000000000ab420000f0c10000000000000000000000000000ab4200000c4200000000000000000000000000004242000044c200000000000000000000000000002ec20000504200000000000000000000000000002ec2000044c2000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 273.0129
+      y: 1249
+      width: 128.91096
+      height: 100.92388
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 205, y: 1236}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 316.5, z: 1, w: 1298}

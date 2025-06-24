@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: flappy_bird_fly_0015
+  m_Rect:
+    serializedVersion: 2
+    x: 726.0761
+    y: 309.0335
+    width: 154.87256
+    height: 118.915184
+  m_Offset: {x: 13.487595, y: -20.491093}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 0.58708835, y: 0.32768312}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: dcbca136b976d7146b043fe6ff104ac6, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 27
+      topology: 0
+      firstVertex: 0
+      vertexCount: 11
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 0a0009000700080007000900060007000800050007000600040005000600030005000400000003000400010003000000020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 11
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 220
+      _typelessdata: 000080420000184200000000000000000000000000007c4200003041000000000000000000000000000080420000504100000000000000000000000000001c42000008c2000000000000000000000000000010420000a0420000000000000000000000000000004200001cc20000000000000000000000000000e0400000a0420000000000000000000000000000b8c100001cc20000000000000000000000000000aec20000d0410000000000000000000000000000b6c2000060410000000000000000000000000000b6c2000020c1000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 726.0761
+      y: 309.0335
+      width: 154.87256
+      height: 118.915184
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 678, y: 209}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 817, z: 1, w: 348}

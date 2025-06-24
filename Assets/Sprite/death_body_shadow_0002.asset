@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: death_body_shadow_0002
+  m_Rect:
+    serializedVersion: 2
+    x: 140.07613
+    y: 491.0761
+    width: 104.84776
+    height: 13.847748
+  m_Offset: {x: 0.49999058, y: 18}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 0.5047687, y: 1.7998503}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 70cde69fd15820149abd6011036bf6dc, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 12
+      topology: 0
+      firstVertex: 0
+      vertexCount: 6
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 050004000300000003000400010003000000020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 6
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 120
+      _typelessdata: 00003442000030c1000000000000000000000000000050420000c8c100000000000000000000000000005042000050c1000000000000000000000000000038c20000c8c1000000000000000000000000000054c2000030c1000000000000000000000000000054c20000a8c1000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 140.07613
+      y: 491.0761
+      width: 104.84776
+      height: 13.847748
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: -87, y: 236}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 193, z: 1, w: 516}

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: bird_idle_head_0016
+  m_Rect:
+    serializedVersion: 2
+    x: 492.0429
+    y: 776.0429
+    width: 237.90936
+    height: 211.88098
+  m_Offset: {x: 154.00243, y: 90.016594}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 1.1473155, y: 0.9248451}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: f2f4e25193db2af44812be1f23748fa9, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 24
+      topology: 0
+      firstVertex: 0
+      vertexCount: 10
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 090008000700050007000800060007000500010006000500040001000500030001000400000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 10
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 200
+      _typelessdata: 00000cc2000058c20000000000000000000000000000f2c200003ac300000000000000000000000000000cc20000c0c200000000000000000000000000002dc30000804100000000000000000000000000005ac30000804100000000000000000000000000005ec30000104100000000000000000000000000007ac3000044c3000000000000000000000000008087c3000044c3000000000000000000000000008088c300000fc3000000000000000000000000008088c3000043c3000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 492.0429
+      y: 776.0429
+      width: 237.90936
+      height: 211.88098
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 189, y: 482}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 765, z: 1, w: 972}

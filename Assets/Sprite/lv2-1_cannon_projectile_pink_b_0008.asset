@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: lv2-1_cannon_projectile_pink_b_0008
+  m_Rect:
+    serializedVersion: 2
+    x: 85.01291
+    y: 1140.0267
+    width: 118.950806
+    height: 115.96034
+  m_Offset: {x: 2.5116823, y: 0.9930769}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 0.5211153, y: 0.50856394}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 302d293cd1c3c854185a012a27c64922, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 18
+      topology: 0
+      firstVertex: 0
+      vertexCount: 8
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 070006000500040005000600030005000400000003000400010003000000020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 8
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 160
+      _typelessdata: 000030420000644200000000000000000000000000006442000060c200000000000000000000000000006442000044420000000000000000000000000000f04100006cc20000000000000000000000000000e8c100006442000000000000000000000000000038c200006cc2000000000000000000000000000078c200003042000000000000000000000000000078c2000008c2000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 85.01291
+      y: 1140.0267
+      width: 118.950806
+      height: 115.96034
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 47, y: 1116}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 147, z: 1, w: 1199}

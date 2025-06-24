@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: car_honk_c_0001
+  m_Rect:
+    serializedVersion: 2
+    x: 795.0111
+    y: 0.0761261
+    width: 69.91278
+    height: 36.837646
+  m_Offset: {x: 73.0325, y: -60.49495}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 1.544623, y: -1.1422045}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: d6dae9d1eeb35de4192c3939be398bb4, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 21
+      topology: 0
+      firstVertex: 0
+      vertexCount: 9
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 080007000400060004000700050004000600030004000500010004000300000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 9
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 180
+      _typelessdata: 000018c200008642000000000000000000000000000024c200002842000000000000000000000000000018c200003442000000000000000000000000000028c20000964200000000000000000000000000004cc2000028420000000000000000000000000000a4c200009e420000000000000000000000000000d0c200009e420000000000000000000000000000d8c2000092420000000000000000000000000000d8c200006042000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 795.0111
+      y: 0.0761261
+      width: 69.91278
+      height: 36.837646
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 665.5, y: -217}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 903, z: 1, w: -42}

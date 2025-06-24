@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: hand_car_fx_spark_b_0001
+  m_Rect:
+    serializedVersion: 2
+    x: 145.07613
+    y: 62.07612
+    width: 21.847755
+    height: 24.847757
+  m_Offset: {x: -3.5, y: 3.0000012}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 0.33980048, y: 0.6207353}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 37e02708c4b12524abc7fa62bcc0b468, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 21
+      topology: 0
+      firstVertex: 0
+      vertexCount: 9
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 080007000600040006000700050006000400010005000400030001000400000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 9
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 180
+      _typelessdata: 000068410000c03f00000000000000000000000000005841000028c100000000000000000000000000006841000008c100000000000000000000000000004841000018410000000000000000000000000000b04000001841000000000000000000000000000000bf000078c10000000000000000000000000000d0c0000078c10000000000000000000000000000f0c0000060400000000000000000000000000000f0c0000058c1000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 145.07613
+      y: 62.07612
+      width: 21.847755
+      height: 24.847757
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 113, y: 39}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 152.5, z: 1, w: 77.5}

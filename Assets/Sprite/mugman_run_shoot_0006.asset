@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mugman_run_shoot_0006
+  m_Rect:
+    serializedVersion: 2
+    x: 239.04291
+    y: 972.0761
+    width: 130.93033
+    height: 164.84776
+  m_Offset: {x: -5.5080714, y: -61.94001}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.9142857
+  m_Pivot: {x: 0.45793128, y: 0.12425932}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 72c87b759e069524d81d2473c0953891, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 36
+      topology: 0
+      firstVertex: 0
+      vertexCount: 16
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 0f000e000d000c000d000e000b000d000c000a000b000c0008000b000a00070008000a00090008000700060005000400030004000500010004000300000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 16
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 320
+      _typelessdata: 00308e423333094300000000000000000000000000509b4265e6b3c100000000000000000000000000509b4233d30443000000000000000000000000006056c23333094300000000000000000000000000e067c265e6b3c1000000000000000000000000004083c26796ab42000000000000000000000000004083c29499c2c000000000000000000000000000000cc033b31a43000000000000000000000000000052c033630b4300000000000000000000000000000cc0330b13430000000000000000000000000000d2c033fb1d4300000000000000000000000000000cc1334b0a43000000000000000000000000000052c133fb1d4300000000000000000000000000809dc1334b0a430000000000000000000000000000afc1335316430000000000000000000000000000afc133ab0e43000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 239.04291
+      y: 972.0761
+      width: 130.93033
+      height: 164.84776
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 43, y: 736.56006}
+    settingsRaw: 65
+    uvTransform: {x: 0.9142857, y: 299, z: 0.9142857, w: 992.56006}

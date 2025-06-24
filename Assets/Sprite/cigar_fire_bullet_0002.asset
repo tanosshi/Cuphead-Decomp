@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: cigar_fire_bullet_0002
+  m_Rect:
+    serializedVersion: 2
+    x: 280.0761
+    y: 146.01291
+    width: 125.847755
+    height: 129.97418
+  m_Offset: {x: 7.5000005, y: 5.4999976}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 0.5595958, y: 0.5423161}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 65d441f1321c018469bef9fecc87e58f, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 24
+      topology: 0
+      firstVertex: 0
+      vertexCount: 10
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 090008000700060007000800050007000600040005000600030005000400000003000400010003000000020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 10
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 200
+      _typelessdata: 00005a420000424200000000000000000000000000005e4200003ac200000000000000000000000000005e420000424200000000000000000000000000004a4200008dc20000000000000000000000000000bc4100006e42000000000000000000000000000006c200008dc2000000000000000000000000000042c200006e42000000000000000000000000000083c2000056c200000000000000000000000000008dc20000124200000000000000000000000000008dc20000f4c1000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 280.0761
+      y: 146.01291
+      width: 125.847755
+      height: 129.97418
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 271, y: 137}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 350.5, z: 1, w: 216.5}

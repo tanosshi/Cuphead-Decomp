@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: a_blimp_enemy_idle_0007
+  m_Rect:
+    serializedVersion: 2
+    x: 1753.0762
+    y: 0.07612038
+    width: 180.89713
+    height: 92.89713
+  m_Offset: {x: 4.475316, y: 2.9753168}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 1
+  m_Pivot: {x: 0.52473956, y: 0.5320281}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: 692316b26ffdc4c4fab1a864971190d8, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 33
+      topology: 0
+      firstVertex: 0
+      vertexCount: 13
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 0c000b0008000a0008000b00090008000a00030008000900070008000300060007000300050006000300040005000300010004000300000001000300020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 13
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 260
+      _typelessdata: 0000ac420000bc410000000000000000000000000000a842000038c10000000000000000000000000000ac420000d0c00000000000000000000000000000884200002e420000000000000000000000000000784200002ac200000000000000000000000000001c42000042c200000000000000000000000000000c42000046c200000000000000000000000000006041000046c20000000000000000000000000000c0c100002ac200000000000000000000000000002cc200002e420000000000000000000000000000b6c2000090400000000000000000000000000000bec20000c0bf0000000000000000000000000000bec20000f0c0000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 1753.0762
+      y: 0.07612038
+      width: 180.89713
+      height: 92.89713
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 1744, y: -12}
+    settingsRaw: 65
+    uvTransform: {x: 1, y: 1848, z: 1, w: 49.5}

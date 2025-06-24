@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!213 &21300000
+Sprite:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: lv_2-1_sky-loop
+  m_Rect:
+    serializedVersion: 2
+    x: 0
+    y: 787
+    width: 2047
+    height: 738
+  m_Offset: {x: -0.1641044, y: -2.1994114E-05}
+  m_Border: {x: 0, y: 0, z: 0, w: 0}
+  m_PixelsToUnits: 0.51644504
+  m_Pivot: {x: 0.49991983, y: 0.49999997}
+  m_Extrude: 1
+  m_IsPolygon: 0
+  m_AtlasName:
+  m_PackingTag:
+  m_RD:
+    serializedVersion: 2
+    texture: {fileID: 2800000, guid: fb168b3670e2ea8499bc847c83214d7a, type: 3}
+    alphaTexture: {fileID: 0}
+    m_SubMeshes:
+    - serializedVersion: 2
+      firstByte: 0
+      indexCount: 6
+      topology: 0
+      firstVertex: 0
+      vertexCount: 4
+      localAABB:
+        m_Center: {x: 0, y: 0, z: 0}
+        m_Extent: {x: 0, y: 0, z: 0}
+    m_IndexBuffer: 030000000100020001000000
+    m_VertexData:
+      m_CurrentChannels: 9
+      m_VertexCount: 4
+      m_Channels:
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 3
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 12
+        format: 0
+        dimension: 2
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      - stream: 0
+        offset: 0
+        format: 0
+        dimension: 0
+      m_DataSize: 80
+      _typelessdata: 2cbaf7c401a032440000000000000000000000002cbaf74401a032c40000000000000000000000002cbaf74401a032440000000000000000000000002cbaf7c401a032c4000000000000000000000000
+    textureRect:
+      serializedVersion: 2
+      x: 0
+      y: 787
+      width: 2047
+      height: 738
+    textureRectOffset: {x: 0, y: 0}
+    atlasRectOffset: {x: 0.16412354, y: 787}
+    settingsRaw: 65
+    uvTransform: {x: 0.51644504, y: 1023.5, z: 0.51644504, w: 1156}
