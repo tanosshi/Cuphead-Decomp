@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1362627268114313
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4099109287761221}
+  - component: {fileID: 114963202203658926}
+  m_Layer: 0
+  m_Name: Level_Weapon_Spread_Ex
+  m_TagString: PlayerProjectile
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4099109287761221
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1362627268114313}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114963202203658926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1362627268114313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8396b3efaffea232ce18c1fbbb3551d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _canParry: 0
+  Damage: 1
+  DamageRate: 0
+  PlayerId: 2147483647
+  DamagesType:
+    Player: 0
+    Enemies: 0
+    Other: 0
+  CollisionDeath:
+    Walls: 1
+    Ceiling: 1
+    Ground: 1
+    Enemies: 0
+    EnemyProjectiles: 0
+    Player: 0
+    PlayerProjectiles: 0
+    Other: 0
+  childPrefab: {fileID: 114161856359465710, guid: 57749f627116a1c47a21adf02359d3ec, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1362627268114313}
+  m_IsPrefabParent: 1

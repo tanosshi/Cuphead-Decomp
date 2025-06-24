@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1090663440841857
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4772861136759824}
+  - component: {fileID: 114265556561720963}
+  - component: {fileID: 114638730286375117}
+  m_Layer: 0
+  m_Name: Plane_Weapon_Bomb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4772861136759824
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1090663440841857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114265556561720963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1090663440841857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a9204bc715b247606c2cc0aef6f318, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  exPrefab: {fileID: 114796409030826862, guid: 67ac0fb045eabd34a8165b5b060e71b5, type: 2}
+  exEffectPrefab: {fileID: 0}
+  basicPrefab: {fileID: 114030148809578516, guid: 89bdf2b5f0ffd96469de5c06277ab7fe, type: 2}
+  basicEffectPrefab: {fileID: 114326924790298736, guid: cb4730158af26c54c8b1870ff0a676a6, type: 2}
+  shrunkPrefab: {fileID: 114694464878058216, guid: e4f08c206aa44d5428e249ca5500880b, type: 2}
+  shrunkDamageMultiplier: 0.5
+--- !u!114 &114638730286375117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1090663440841857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a9c5a86574d1a7b0e88594cedc7c1f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  channel: 0
+  bgmSources: []
+  sounds:
+  - sources:
+    - audio: {fileID: 82608104339350560, guid: f2417fa0851a2a047af148fddc17e769, type: 2}
+      originalVolume: 0
+      isFadedOut: 0
+    - audio: {fileID: 82477784333395497, guid: f2417fa0851a2a047af148fddc17e769, type: 2}
+      originalVolume: 0
+      isFadedOut: 0
+    trigger: 100
+    key: player_weapon_peashot
+    emissionTransform: {fileID: 0}
+    overridePlaylist: 0
+    activatedManually: 0
+    playFirst: 0
+    isFadedOut: 0
+  - sources:
+    - audio: {fileID: 82759206257483484, guid: f2417fa0851a2a047af148fddc17e769, type: 2}
+      originalVolume: 0
+      isFadedOut: 0
+    trigger: 101
+    key: player_weapon_peashot_die
+    emissionTransform: {fileID: 0}
+    overridePlaylist: 0
+    activatedManually: 0
+    playFirst: 0
+    isFadedOut: 0
+  bgmPlaylist: []
+  autoplayBGM: 0
+  autoplayBGMPlaylist: 1
+  minValue: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1090663440841857}
+  m_IsPrefabParent: 1

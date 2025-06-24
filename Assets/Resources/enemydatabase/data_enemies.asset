@@ -1,0 +1,8002 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b9143b4dc60801b2924e81423d98ff, type: 3}
+  m_Name: data_enemies
+  m_EditorClassIdentifier:
+  enemyProperties:
+  - _displayName: Blue Goblin
+    _enumName: blue_goblin
+    _id: 1453809956
+    _health: 12
+    _parryable: 1
+    _moveLoopMode: 0
+    _moveSpeed: 1000
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 114195355089712854, guid: d2e44bc80a3fc2b4788d7f6dcd4b3af0, type: 2}
+    _projectileParryable: 0
+    _projectileSpeed: 400
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 0
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Pink Goblin
+    _enumName: pink_goblin
+    _id: 1453814589
+    _health: 1
+    _parryable: 1
+    _moveLoopMode: 0
+    _moveSpeed: 200
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 114195355089712854, guid: d2e44bc80a3fc2b4788d7f6dcd4b3af0, type: 2}
+    _projectileParryable: 0
+    _projectileSpeed: 0
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Wind
+    _enumName: wind
+    _id: 1482234127
+    _health: 1
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 100
+    _arcProjectileMinSpeed: 300
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 0
+      max: 0
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Blob Runner
+    _enumName: blob_runner
+    _id: 1459954994
+    _health: 1
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 2000
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 300
+    _projectileAimMode: 1
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Lobber
+    _enumName: lobber
+    _id: 1460810837
+    _health: 13
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 1
+    _projectilePrefab: {fileID: 114393803393591448, guid: 94668ab944e73c343b4dcd699b7c8a59, type: 2}
+    _projectileParryable: 0
+    _projectileSpeed: 900
+    _arcProjectileMinSpeed: 900
+    _projectileAngle: 90
+    _arcProjectileMinAngle: 45
+    _projectileGravity: 1200
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1.2
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: FlowerGrunt
+    _enumName: flower_grunt
+    _id: 1462882531
+    _health: 4
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 600
+    _canJump: 1
+    _gravity: 2000
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 350
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Mushroom
+    _enumName: mushroom
+    _id: 1463417649
+    _health: 5
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 1
+    _projectilePrefab: {fileID: 114315107910331007, guid: 9a770aadd410e5744822927b0a328d3c, type: 2}
+    _projectileParryable: 0
+    _projectileSpeed: 400
+    _arcProjectileMinSpeed: 400
+    _projectileAngle: -13
+    _arcProjectileMinAngle: 70
+    _projectileGravity: 0
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 4
+      max: 6
+    _mushroomPinkNumber:
+      min: 1
+      max: 3
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Chomper
+    _enumName: chomper
+    _id: 1463507456
+    _health: 500
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Acorn
+    _enumName: acorn
+    _id: 1463568270
+    _health: 7
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 750
+    _acornDropSpeed: 800
+    _acornPropellerSpeed: 400
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: AcornMaker
+    _enumName: acornmaker
+    _id: 1486473328
+    _health: 125
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1.8
+      max: 2.3
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Spiker
+    _enumName: spiker
+    _id: 1464254025
+    _health: 1
+    _parryable: 1
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: LadyBug
+    _enumName: ladybug
+    _id: 1485842900
+    _health: 8
+    _parryable: 0
+    _moveLoopMode: 2
+    _moveSpeed: 475
+    _canJump: 1
+    _gravity: 2000
+    _floatSpeed: 500
+    _jumpHeight: 400
+    _jumpLength: 450
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 525
+    slowMovement: 405
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Dragonfly
+    _enumName: dragonfly
+    _id: 1485956266
+    _health: 325
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString: R,R
+    dragonFlyAtkDelayString: 0.4,0.4,0.4,0.6
+    dragonFlyWarningDuration: 0.5
+    dragonFlyAttackDuration: 0.4
+    dragonFlyProjectileSpeed: 750
+    dragonFlyProjectileDelay: 0.5
+    dragonFlyLockDistOffset: 200
+    dragonFlyInitRiseTime: 3
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: DragonflyShot
+    _enumName: dragonflyshot
+    _id: 1487853829
+    _health: 1
+    _parryable: 0
+    _moveLoopMode: 2
+    _moveSpeed: 450
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Woodpecker
+    _enumName: woodpecker
+    _id: 1486446990
+    _health: 1
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0.4
+    WoodpeckerAttackDuration: 0.7
+    WoodpeckermoveDownTime: 0.6
+    WoodpeckermoveUpTime: 0.9
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Beetle
+    _enumName: beetle
+    _id: 1486537397
+    _health: 4
+    _parryable: 0
+    _moveLoopMode: 3
+    _moveSpeed: 385
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 330
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Lobster
+    _enumName: lobster
+    _id: 1482933381
+    _health: 80
+    _parryable: 0
+    _moveLoopMode: 1
+    _moveSpeed: 3
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 0
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 0
+    _projectilePrefab: {fileID: 114319092689615512, guid: 2fe5f49295fa3b841be30cb08dbd25ea, type: 2}
+    _projectileParryable: 0
+    _projectileSpeed: 850
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 2.5
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 5
+    lobsterOffscreenTime: 2
+    lobsterSpeed: 700
+    lobsterWarningTime: 0.8
+    lobsterY: -1060
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Barnacle
+    _enumName: barnacle
+    _id: 1484655937
+    _health: 35
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 3
+    _projectilePrefab: {fileID: 114945037767041147, guid: 5ce8944781a9d614eb71b47c918f1af9, type: 2}
+    _projectileParryable: 0
+    _projectileSpeed: 1100
+    _arcProjectileMinSpeed: 700
+    _projectileAngle: 60
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 1500
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 0.1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Urchin
+    _enumName: urchin
+    _id: 1484656006
+    _health: 5
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Crab
+    _enumName: crab
+    _id: 1484887937
+    _health: 1
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 300
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Krill
+    _enumName: krill
+    _id: 1485171903
+    _health: 4
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 1000
+    _arcProjectileMinSpeed: 1500
+    _projectileAngle: 500
+    _arcProjectileMinAngle: 1000
+    _projectileGravity: 4000
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 250
+      max: 405
+    krillVelocityY:
+      min: 1500
+      max: 1600
+    krillLaunchDelay: 0.75
+    krillGravity: 1600
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Clam
+    _enumName: clam
+    _id: 1485247421
+    _health: 9999
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 114866002804450144, guid: a5b658089eceee34fa59248f1a7da634, type: 2}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 1
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 0
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 0.2
+      max: 0.3
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 2
+    ClamTimeSpeedDown: 3.45
+    ClamMaxPointRange:
+      min: -500
+      max: -530
+    ClamShotCount: 2
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Starfish
+    _enumName: starfish
+    _id: 1485342605
+    _health: 1
+    _parryable: 0
+    _moveLoopMode: 2
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: FlyingFish
+    _enumName: flyingfish
+    _id: 1488259720
+    _health: 6
+    _parryable: 0
+    _moveLoopMode: 2
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 350
+    flyingFishSinVelocity: 3.3
+    flyingFishSinSize: 5
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Satyr
+    _enumName: satyr
+    _id: 1490612302
+    _health: 4
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 1
+    _gravity: 2000
+    _floatSpeed: 400
+    _jumpHeight: 750
+    _jumpLength: -20
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: BigMudman
+    _enumName: mudman
+    _id: 1490686738
+    _health: 50
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 193
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: SmallMudman
+    _enumName: smallmudman
+    _id: 1490775402
+    _health: 22
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 193
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Dragon
+    _enumName: dragon
+    _id: 1491302494
+    _health: 10
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 0
+    _projectilePrefab: {fileID: 114057181524760780, guid: da57dc6d672023146b5f76464c7b720d, type: 2}
+    _projectileParryable: 0
+    _projectileSpeed: 550
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 2
+      max: 3
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 1.5
+    dragonTimeOut: 1.5
+    dragonLeaveDelay: 0.5
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Miner
+    _enumName: miner
+    _id: 1471427373
+    _health: 24
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 1
+    _gravity: 1200
+    _floatSpeed: 1000
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 0
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 550
+    minerDescendTime: 1
+    minerRopeAscendTime: 0.5
+    minerShotDelay:
+      min: 0.5
+      max: 1
+    minerDistance: 650
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Fan
+    _enumName: fan
+    _id: 1472137552
+    _health: 200
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 100
+    _arcProjectileMinSpeed: 2
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 5
+      max: 7
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 350
+    fanWaitTime:
+      min: 1.5
+      max: 2.5
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Flamer
+    _enumName: flamer
+    _id: 1493364722
+    _health: 9999
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 1.3
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 300
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: MountainWall
+    _enumName: wall
+    _id: 1493302906
+    _health: 60
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 4
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 180
+    _arcProjectileMinAngle: 45
+    _projectileGravity: 1200
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 1.8
+    wallAttackDelay:
+      min: 1.4
+      max: 2.2
+    wallProjectileXSpeed: 350
+    wallProjectileYSpeed: 270
+    wallProjectileGravity: 3000
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: FunWall1
+    _enumName: funhousewall
+    _id: 1494244345
+    _health: 120
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 3.7
+      max: 4.7
+    funWallBottomDelayRange:
+      min: 4.6
+      max: 5.7
+    funWallProjectileSpeed: 550
+    funWallMouthOpenTime: 1.5
+    funWallCarDelayRange:
+      min: 3
+      max: 4.1
+    funWallCarSpeed: 700
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: FunWall2
+    _enumName: funwall2
+    _id: 1494324240
+    _health: 90
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 3.5
+      max: 4.5
+    funWallBottomDelayRange:
+      min: 4.5
+      max: 5.7
+    funWallProjectileSpeed: 550
+    funWallMouthOpenTime: 1.5
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 2.5
+      max: 3.5
+    funWallTongueLoopTime: 1.5
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Rocket
+    _enumName: rocket
+    _id: 1494422672
+    _health: 2
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Jack
+    _enumName: jack
+    _id: 1494439336
+    _health: 2
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 200
+    jackHomingMoveSpeed: 200
+    jackRotationSpeed: 200
+    jacktimeBeforeDeath: 9999
+    jacktimeBeforeHoming: 2.5
+    jackEaseTime: 1
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Duck
+    _enumName: duck
+    _id: 1494503963
+    _health: 13
+    _parryable: 0
+    _moveLoopMode: 2
+    _moveSpeed: 300
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: MiniDuck
+    _enumName: miniduck
+    _id: 1495787857
+    _health: 4
+    _parryable: 0
+    _moveLoopMode: 2
+    _moveSpeed: 300
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: JackinBox
+    _enumName: jackinbox
+    _id: 1494589844
+    _health: 4
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 0
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 650
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString: U,D,U,D,L,R
+    jackinAppearDelay:
+      min: 3
+      max: 4
+    jackinDeathAppearDelay:
+      min: 5
+      max: 6
+    jackinWarningDuration: 1
+    jackinShootDelay: 0.3
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Tuba
+    _enumName: tuba
+    _id: 1494599664
+    _health: 100
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 1
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 0
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 1100
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 5
+    tubaInitialDelay: 2
+    tubaMainDelayRange:
+      min: 2
+      max: 3
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: StarCannon
+    _enumName: starcannon
+    _id: 1494616459
+    _health: 9999
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 10
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 605
+    cannonShotDelay: 0.85
+    bulletDeathTime: 1
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Balloon
+    _enumName: balloon
+    _id: 1495809111
+    _health: 1
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 400
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 400
+    flyingFishSinVelocity: 3.3
+    flyingFishSinSize: 5
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Pretzel
+    _enumName: pretzel
+    _id: 1497254030
+    _health: 50
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 400
+      max: 500
+    pretzelYSpeed: 600
+    pretzelGroundDelay: 0.6
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Arcade
+    _enumName: arcade
+    _id: 1497266682
+    _health: 130
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0.5
+      max: 1
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 950
+    arcadeBulletReturnDelay:
+      min: 0.3
+      max: 0.4
+    arcadeBulletCount: 5
+    arcadeBulletIndividualDelay: 0.22
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: BallRunner
+    _enumName: ballrunner
+    _id: 1497273656
+    _health: 4
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 400
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 1100
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 700
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Magician
+    _enumName: magician
+    _id: 1497334746
+    _health: 16
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 0
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 2.5
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 1
+      max: 1.4
+    magicianDeathDelayRange:
+      min: 5
+      max: 7
+    magicianDurationAppear: 2.5
+    poleSpeedMovement: 0
+  - _displayName: PoleBot
+    _enumName: polebot
+    _id: 1498648491
+    _health: 11
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 500
+  - _displayName: Log
+    _enumName: log
+    _id: 1499174100
+    _health: 14
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 0}
+    _projectileParryable: 0
+    _projectileSpeed: 500
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 15
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  - _displayName: Hotdog
+    _enumName: hotdog
+    _id: 1503633163
+    _health: 135
+    _parryable: 0
+    _moveLoopMode: 0
+    _moveSpeed: 500
+    _canJump: 0
+    _gravity: 1200
+    _floatSpeed: 400
+    _jumpHeight: 200
+    _jumpLength: 500
+    _projectileAimMode: 2
+    _projectilePrefab: {fileID: 114151610714874737, guid: c873951fd2fbd2c4ab3d4768cdfd2ca0, type: 2}
+    _projectileParryable: 0
+    _projectileSpeed: 705
+    _arcProjectileMinSpeed: 250
+    _projectileAngle: 0
+    _arcProjectileMinAngle: 0
+    _projectileGravity: 0
+    _projectileStoneTime: 0
+    _projectileDelay:
+      min: 1
+      max: 1
+    _mushroomPinkNumber:
+      min: 3
+      max: 5
+    _acornFlySpeed: 500
+    _acornDropSpeed: 500
+    _acornPropellerSpeed: 300
+    _blobRunnerMeltDelay:
+      min: 2
+      max: 3
+    _blobRunnerUnnmeltLoopTime: 0.5
+    ClamTimeSpeedUp: 0.8
+    ClamTimeSpeedDown: 1
+    ClamMaxPointRange:
+      min: 600
+      max: 700
+    ClamShotCount: 4
+    ClamDespawnDelayRange:
+      min: 3.5
+      max: 5
+    fastMovement: 400
+    slowMovement: 200
+    dragonFlyAimString:
+    dragonFlyAtkDelayString:
+    dragonFlyWarningDuration: 0
+    dragonFlyAttackDuration: 0
+    dragonFlyProjectileSpeed: 0
+    dragonFlyProjectileDelay: 0
+    dragonFlyLockDistOffset: 0
+    dragonFlyInitRiseTime: 0
+    WoodpeckerWarningDuration: 0
+    WoodpeckerAttackDuration: 0
+    WoodpeckermoveDownTime: 0
+    WoodpeckermoveUpTime: 0
+    flyingFishVelocity: 0
+    flyingFishSinVelocity: 0
+    flyingFishSinSize: 0
+    lobsterTuckTime: 0
+    lobsterOffscreenTime: 0
+    lobsterSpeed: 0
+    lobsterWarningTime: 0
+    lobsterY: 0
+    krillVelocityX:
+      min: 0
+      max: 0
+    krillVelocityY:
+      min: 0
+      max: 0
+    krillLaunchDelay: 0
+    krillGravity: 0
+    dragonTimeIn: 0
+    dragonTimeOut: 0
+    dragonLeaveDelay: 0
+    minerShootSpeed: 0
+    minerDescendTime: 0
+    minerRopeAscendTime: 0
+    minerShotDelay:
+      min: 0
+      max: 0
+    minerDistance: 0
+    wallFaceTravelTime: 0
+    wallAttackDelay:
+      min: 0
+      max: 0
+    wallProjectileXSpeed: 0
+    wallProjectileYSpeed: 0
+    wallProjectileGravity: 0
+    flamerCirSpeed: 0
+    flamerXSpeed:
+      min: 0
+      max: 0
+    flamerLoopSize: 0
+    fanVelocity: 0
+    fanWaitTime:
+      min: 0
+      max: 0
+    funWallTopDelayRange:
+      min: 0
+      max: 0
+    funWallBottomDelayRange:
+      min: 0
+      max: 0
+    funWallProjectileSpeed: 0
+    funWallMouthOpenTime: 0
+    funWallCarDelayRange:
+      min: 0
+      max: 0
+    funWallCarSpeed: 0
+    funWallTongueDelayRange:
+      min: 0
+      max: 0
+    funWallTongueLoopTime: 0
+    jackLaunchVelocity: 0
+    jackHomingMoveSpeed: 0
+    jackRotationSpeed: 0
+    jacktimeBeforeDeath: 0
+    jacktimeBeforeHoming: 0
+    jackEaseTime: 0
+    jackinDirectionString:
+    jackinAppearDelay:
+      min: 0
+      max: 0
+    jackinDeathAppearDelay:
+      min: 0
+      max: 0
+    jackinWarningDuration: 0
+    jackinShootDelay: 0
+    tubaACount: 0
+    tubaInitialDelay: 0
+    tubaMainDelayRange:
+      min: 0
+      max: 0
+    cannonSpeed: 0
+    cannonShotDelay: 0
+    bulletDeathTime: 0
+    pretzelXSpeedRange:
+      min: 0
+      max: 0
+    pretzelYSpeed: 0
+    pretzelGroundDelay: 0
+    arcadeAttackDelayInit:
+      min: 0
+      max: 0
+    arcadeAttackDelay:
+      min: 0
+      max: 0
+    arcadeBulletSpeed: 0
+    arcadeBulletReturnDelay:
+      min: 0
+      max: 0
+    arcadeBulletCount: 0
+    arcadeBulletIndividualDelay: 0
+    magicianAppearDelayRange:
+      min: 0
+      max: 0
+    magicianDeathDelayRange:
+      min: 0
+      max: 0
+    magicianDurationAppear: 0
+    poleSpeedMovement: 0
+  index: 17

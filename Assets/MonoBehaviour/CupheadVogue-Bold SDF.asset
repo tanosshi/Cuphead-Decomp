@@ -1,0 +1,526 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9aef7d06d54fd9430a25532e1ccf6a8, type: 3}
+  m_Name: CupheadVogue-Bold SDF
+  m_EditorClassIdentifier:
+  hashCode: 553389241
+  material: {fileID: 2100000, guid: 24beb65ce28f35d40a5975811fbf85fb, type: 2}
+  materialHashCode: -1675796718
+  fontAssetType: 1
+  m_fontInfo:
+    Name: Cuphead Vogue
+    PointSize: 222
+    Scale: 1
+    CharacterCount: 55
+    LineHeight: 266.375
+    Baseline: 0
+    Ascender: 217.5625
+    Descender: -48.875
+    CenterLine: 0
+    SuperscriptOffset: 217.5625
+    SubscriptOffset: -22.2
+    SubSize: 0.5
+    Underline: -22.2
+    UnderlineThickness: 11.1
+    TabWidth: 666.25
+    Padding: 0
+    AtlasWidth: 1024
+    AtlasHeight: 1024
+  atlas: {fileID: 2800000, guid: ce93809425331a749b8ef6f456f5fcb8, type: 3}
+  m_glyphInfoList:
+  - id: 32
+    x: 6
+    y: 1029
+    width: 66.625
+    height: 266.4375
+    xOffset: 0
+    yOffset: 217.5625
+    xAdvance: 66.625
+  - id: 33
+    x: 775
+    y: 693
+    width: 33.25
+    height: 156.9375
+    xOffset: 11.0625
+    yOffset: 151.1875
+    xAdvance: 55.5
+  - id: 34
+    x: 253
+    y: 377
+    width: 24.4375
+    height: 54.625
+    xOffset: 14.375
+    yOffset: 151.875
+    xAdvance: 55.5
+  - id: 36
+    x: 199
+    y: 824
+    width: 87.6875
+    height: 193.1875
+    xOffset: 9.9375
+    yOffset: 160.75
+    xAdvance: 107.6875
+  - id: 38
+    x: 324
+    y: 484
+    width: 115.4375
+    height: 158.75
+    xOffset: 9.0625
+    yOffset: 155.875
+    xAdvance: 129.875
+  - id: 39
+    x: 216
+    y: 377
+    width: 25.5
+    height: 54.625
+    xOffset: 14.375
+    yOffset: 151.875
+    xAdvance: 55.5
+  - id: 40
+    x: 165
+    y: 614
+    width: 40.4375
+    height: 194.4375
+    xOffset: 15.75
+    yOffset: 155
+    xAdvance: 60.1875
+  - id: 41
+    x: 114
+    y: 613
+    width: 39.75
+    height: 195.8125
+    xOffset: 3.5
+    yOffset: 155.1875
+    xAdvance: 60.1875
+  - id: 42
+    x: 496
+    y: 408
+    width: 91.6875
+    height: 101
+    xOffset: 4.625
+    yOffset: 163.4375
+    xAdvance: 101
+  - id: 44
+    x: 289
+    y: 377
+    width: 24.375
+    height: 54.625
+    xOffset: 15.5
+    yOffset: 24.4375
+    xAdvance: 55.5
+  - id: 45
+    x: 217
+    y: 619
+    width: 55.6875
+    height: 23.75
+    xOffset: 6.625
+    yOffset: 54
+    xAdvance: 69.0625
+  - id: 46
+    x: 372
+    y: 438
+    width: 33.9375
+    height: 34.4375
+    xOffset: 10.625
+    yOffset: 29.3125
+    xAdvance: 55.5
+  - id: 48
+    x: 618
+    y: 359
+    width: 95.25
+    height: 152.25
+    xOffset: 9.9375
+    yOffset: 144.5625
+    xAdvance: 115.4375
+  - id: 49
+    x: 820
+    y: 702
+    width: 28
+    height: 147.375
+    xOffset: 43.5
+    yOffset: 143.6875
+    xAdvance: 115.4375
+  - id: 50
+    x: 819
+    y: 48
+    width: 88.125
+    height: 148.0625
+    xOffset: 11.0625
+    yOffset: 146.3125
+    xAdvance: 115.4375
+  - id: 51
+    x: 933
+    y: 367
+    width: 78.625
+    height: 151.4375
+    xOffset: 16.625
+    yOffset: 144.75
+    xAdvance: 115.4375
+  - id: 52
+    x: 819
+    y: 369
+    width: 102.8125
+    height: 149.1875
+    xOffset: 4.875
+    yOffset: 144.5625
+    xAdvance: 115.4375
+  - id: 53
+    x: 831
+    y: 209
+    width: 90.3125
+    height: 148.5
+    xOffset: 11.9375
+    yOffset: 143
+    xAdvance: 115.4375
+  - id: 54
+    x: 725
+    y: 208
+    width: 94.5625
+    height: 149.4375
+    xOffset: 11.3125
+    yOffset: 142.75
+    xAdvance: 115.4375
+  - id: 55
+    x: 919
+    y: 50
+    width: 88.1875
+    height: 147.375
+    xOffset: 16.625
+    yOffset: 143.6875
+    xAdvance: 115.4375
+  - id: 56
+    x: 722
+    y: 529
+    width: 85.9375
+    height: 151.1875
+    xOffset: 14.375
+    yOffset: 144.5625
+    xAdvance: 115.4375
+  - id: 57
+    x: 618
+    y: 196
+    width: 93.6875
+    height: 151.375
+    xOffset: 9.0625
+    yOffset: 145.6875
+    xAdvance: 115.4375
+  - id: 58
+    x: 325
+    y: 377
+    width: 36
+    height: 95.5
+    xOffset: 9.75
+    yOffset: 90.8125
+    xAdvance: 55.5
+  - id: 59
+    x: 451
+    y: 387
+    width: 33.0625
+    height: 121.625
+    xOffset: 11.0625
+    yOffset: 89.75
+    xAdvance: 55.5
+  - id: 63
+    x: 448
+    y: 689
+    width: 78.8125
+    height: 158.75
+    xOffset: 4.625
+    yOffset: 153.875
+    xAdvance: 87.6875
+  - id: 64
+    x: 6
+    y: 375
+    width: 198.4375
+    height: 196.5
+    xOffset: 9.9375
+    yOffset: 154.75
+    xAdvance: 218.4375
+  - id: 65
+    x: 860
+    y: 863
+    width: 148.3125
+    height: 154.0625
+    xOffset: 3.75
+    yOffset: 152.3125
+    xAdvance: 156.75
+  - id: 66
+    x: 719
+    y: 29
+    width: 88.75
+    height: 155.1875
+    xOffset: 15.5
+    yOffset: 153.1875
+    xAdvance: 114.3125
+  - id: 67
+    x: 298
+    y: 859
+    width: 150.75
+    height: 158.5
+    xOffset: 9.75
+    yOffset: 157.625
+    xAdvance: 167.1875
+  - id: 68
+    x: 860
+    y: 696
+    width: 120.3125
+    height: 155.4375
+    xOffset: 15.5
+    yOffset: 153.1875
+    xAdvance: 145.875
+  - id: 69
+    x: 618
+    y: 28
+    width: 89.6875
+    height: 156.75
+    xOffset: 15.5
+    yOffset: 156.125
+    xAdvance: 111.6875
+  - id: 70
+    x: 514
+    y: 51
+    width: 92.5625
+    height: 156.3125
+    xOffset: 15.5
+    yOffset: 153.1875
+    xAdvance: 111.875
+  - id: 71
+    x: 6
+    y: 203
+    width: 160.5
+    height: 160.5625
+    xOffset: 9.9375
+    yOffset: 155.875
+    xAdvance: 177.625
+  - id: 72
+    x: 452
+    y: 219
+    width: 137.8125
+    height: 156.9375
+    xOffset: 15.5
+    yOffset: 155
+    xAdvance: 168.9375
+  - id: 73
+    x: 460
+    y: 859
+    width: 30.875
+    height: 158.6875
+    xOffset: 12.875
+    yOffset: 157
+    xAdvance: 59.25
+  - id: 74
+    x: 349
+    y: 207
+    width: 91.875
+    height: 158.6875
+    xOffset: 2.625
+    yOffset: 155
+    xAdvance: 109
+  - id: 75
+    x: 650
+    y: 692
+    width: 113.1875
+    height: 156.5
+    xOffset: 15.5
+    yOffset: 154.5625
+    xAdvance: 134.3125
+  - id: 76
+    x: 642
+    y: 860
+    width: 89.6875
+    height: 157.1875
+    xOffset: 15.5
+    yOffset: 157
+    xAdvance: 107.875
+  - id: 77
+    x: 820
+    y: 530
+    width: 159.375
+    height: 154.9375
+    xOffset: 15.5
+    yOffset: 154.125
+    xAdvance: 190.5
+  - id: 78
+    x: 6
+    y: 31
+    width: 133
+    height: 160.9375
+    xOffset: 14.625
+    yOffset: 157.1875
+    xAdvance: 163.1875
+  - id: 79
+    x: 178
+    y: 204
+    width: 159.625
+    height: 159.625
+    xOffset: 9.9375
+    yOffset: 157.625
+    xAdvance: 179.8125
+  - id: 80
+    x: 414
+    y: 37
+    width: 88.75
+    height: 158.5
+    xOffset: 15.5
+    yOffset: 155.625
+    xAdvance: 108.125
+  - id: 81
+    x: 27
+    y: 820
+    width: 160.5
+    height: 197.125
+    xOffset: 9.9375
+    yOffset: 157.625
+    xAdvance: 180.6875
+  - id: 82
+    x: 743
+    y: 861
+    width: 105.625
+    height: 156.5
+    xOffset: 15.5
+    yOffset: 153.1875
+    xAdvance: 126.125
+  - id: 83
+    x: 216
+    y: 443
+    width: 96.3125
+    height: 159.875
+    xOffset: 9.0625
+    yOffset: 155.875
+    xAdvance: 116.5625
+  - id: 84
+    x: 538
+    y: 691
+    width: 100.125
+    height: 157.1875
+    xOffset: 4.625
+    yOffset: 155
+    xAdvance: 109.6875
+  - id: 85
+    x: 150
+    y: 31
+    width: 117.875
+    height: 160.25
+    xOffset: 15.5
+    yOffset: 157.4375
+    xAdvance: 148.9375
+  - id: 86
+    x: 279
+    y: 33
+    width: 123.1875
+    height: 159.625
+    xOffset: 3.5
+    yOffset: 156.75
+    xAdvance: 131.1875
+  - id: 87
+    x: 217
+    y: 654
+    width: 219.3125
+    height: 158.9375
+    xOffset: 4.625
+    yOffset: 157
+    xAdvance: 229.5625
+  - id: 88
+    x: 451
+    y: 520
+    width: 125
+    height: 157.875
+    xOffset: 5.5
+    yOffset: 158.75
+    xAdvance: 136.75
+  - id: 89
+    x: 502
+    y: 860
+    width: 128.5
+    height: 157.625
+    xOffset: 2.625
+    yOffset: 157.625
+    xAdvance: 135
+  - id: 90
+    x: 587
+    y: 523
+    width: 123.625
+    height: 157
+    xOffset: 5.5
+    yOffset: 155.875
+    xAdvance: 136.0625
+  - id: 91
+    x: 6
+    y: 583
+    width: 43.0625
+    height: 200
+    xOffset: 15.5
+    yOffset: 160.5625
+    xAdvance: 59.9375
+  - id: 93
+    x: 61
+    y: 613
+    width: 41.5
+    height: 195.3125
+    xOffset: 2.875
+    yOffset: 161.4375
+    xAdvance: 59.9375
+  - id: 124
+    x: 6
+    y: 794
+    width: 9.3125
+    height: 224
+    xOffset: 15.5
+    yOffset: 174.75
+    xAdvance: 40.375
+  m_kerningInfo:
+    kerningPairs: []
+  m_kerningPair:
+    AscII_Left: 0
+    AscII_Right: 0
+    XadvanceOffset: 0
+  m_lineBreakingInfo: {}
+  fallbackFontAssets: []
+  fontCreationSettings:
+    fontSourcePath:
+    fontSizingMode: 0
+    fontSize: 0
+    fontPadding: 0
+    fontPackingMode: 0
+    fontAtlasWidth: 0
+    fontAtlasHeight: 0
+    fontCharacterSet: 0
+    fontStyle: 0
+    fontStlyeModifier: 0
+    fontRenderMode: 0
+    fontKerning: 0
+  fontWeights:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10

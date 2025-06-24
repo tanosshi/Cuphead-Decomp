@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: anim_level_veggies_carrot_projectile_dead_b
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 87e17379f96d84a459e3c0303c9aecce, type: 2}
+    - time: 0.041666668
+      value: {fileID: 21300000, guid: b0b07fff13ccb5e408a0dacbfda18285, type: 2}
+    - time: 0.083333336
+      value: {fileID: 21300000, guid: ae24667cb3d59e64e9cc175bf9190d33, type: 2}
+    - time: 0.125
+      value: {fileID: 21300000, guid: 68b9a5f07f4d2ca4391cea17a7c4ce46, type: 2}
+    - time: 0.16666667
+      value: {fileID: 21300000, guid: 152c0c8168e94544b85195948184d3f8, type: 2}
+    - time: 0.20833333
+      value: {fileID: 21300000, guid: 76ad365ef0acd4e45bc782bdb557ca08, type: 2}
+    - time: 0.25
+      value: {fileID: 21300000, guid: 96fe6a07c3443404eb5d67e7547b1af4, type: 2}
+    - time: 0.29166666
+      value: {fileID: 21300000, guid: 5b1d2f25267ddb54893f2981fb019004, type: 2}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: 71a00c9852947d84cb99f6ea5e010a4b, type: 2}
+    - time: 0.375
+      value: {fileID: 21300000, guid: e1dec91c25dfcb246b66e0d926347b1f, type: 2}
+    attribute: m_Sprite
+    path: Sprite
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 850496168
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: 87e17379f96d84a459e3c0303c9aecce, type: 2}
+    - {fileID: 21300000, guid: b0b07fff13ccb5e408a0dacbfda18285, type: 2}
+    - {fileID: 21300000, guid: ae24667cb3d59e64e9cc175bf9190d33, type: 2}
+    - {fileID: 21300000, guid: 68b9a5f07f4d2ca4391cea17a7c4ce46, type: 2}
+    - {fileID: 21300000, guid: 152c0c8168e94544b85195948184d3f8, type: 2}
+    - {fileID: 21300000, guid: 76ad365ef0acd4e45bc782bdb557ca08, type: 2}
+    - {fileID: 21300000, guid: 96fe6a07c3443404eb5d67e7547b1af4, type: 2}
+    - {fileID: 21300000, guid: 5b1d2f25267ddb54893f2981fb019004, type: 2}
+    - {fileID: 21300000, guid: 71a00c9852947d84cb99f6ea5e010a4b, type: 2}
+    - {fileID: 21300000, guid: e1dec91c25dfcb246b66e0d926347b1f, type: 2}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.41666666
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events:
+  - time: 0.375
+    functionName: OnDieAnimationComplete
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

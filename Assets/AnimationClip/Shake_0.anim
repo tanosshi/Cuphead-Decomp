@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Shake
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: Infinity
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: mausoleum_mg_w2_urn
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: Infinity
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: mausoleum_mg_w2_urn_back
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: Infinity
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: mausoleum_mg_w2_urn_lid
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: Infinity
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: mausoleum_mg_w2_urn_Animation
+    classID: 212
+    script: {fileID: 0}
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 205db3990bcfa3341a1e64602bfb6c41, type: 2}
+    - time: 0.041666668
+      value: {fileID: 21300000, guid: 879deccae9e55804da5b8c782ea6576c, type: 2}
+    - time: 0.083333336
+      value: {fileID: 21300000, guid: 05c1b0a58f3266a459f0cc1d24fbb0d9, type: 2}
+    - time: 0.125
+      value: {fileID: 21300000, guid: f3589fbe2f64af84aa209ca90fac1977, type: 2}
+    - time: 0.16666667
+      value: {fileID: 21300000, guid: d2c1518a3228b294a89a6987616105de, type: 2}
+    - time: 0.20833334
+      value: {fileID: 21300000, guid: d07b1a170b0e7c242ba0e96ab4334b51, type: 2}
+    - time: 0.25
+      value: {fileID: 21300000, guid: 96e9d750de0641445a6f97aa1c9800b4, type: 2}
+    - time: 0.29166666
+      value: {fileID: 21300000, guid: 2a7d3e199f259894db8ac0789234a869, type: 2}
+    - time: 0.3333333
+      value: {fileID: 21300000, guid: dc3aed961cdd4154da08fa1ffd4462bb, type: 2}
+    - time: 0.37499997
+      value: {fileID: 21300000, guid: 2f00eed476d141e4ba8cb0909b5840df, type: 2}
+    - time: 0.41666663
+      value: {fileID: 21300000, guid: e1fa458cf6f38084ea169ea719310c4a, type: 2}
+    - time: 0.45833328
+      value: {fileID: 21300000, guid: 962e70e948fea0c42b39db86c1e33ea9, type: 2}
+    - time: 0.49999994
+      value: {fileID: 21300000, guid: f1fc2c27e42e55e429cbb9a212bbe612, type: 2}
+    - time: 0.5416666
+      value: {fileID: 21300000, guid: 437b194ad89b27149856fc42393d5faa, type: 2}
+    - time: 0.5833333
+      value: {fileID: 21300000, guid: ac9e6d16870aef047b3ecb9c9e61bdb7, type: 2}
+    - time: 0.625
+      value: {fileID: 21300000, guid: 55a661e463f43ba48850380b513ea731, type: 2}
+    - time: 0.6666667
+      value: {fileID: 21300000, guid: 441730ac8d73c1d43a8d9c04e30d717e, type: 2}
+    - time: 0.7083334
+      value: {fileID: 21300000, guid: a6c57d8e408c9604abc1d20ee2b2b394, type: 2}
+    - time: 0.75000006
+      value: {fileID: 21300000, guid: 75b5189d11dce4f4a94344784f923800, type: 2}
+    - time: 0.79166675
+      value: {fileID: 21300000, guid: 9dc00905037790747b9ab6ca1df4aea2, type: 2}
+    - time: 0.83333343
+      value: {fileID: 21300000, guid: 5da84b6898c96eb4197db06b223733c8, type: 2}
+    - time: 0.8750001
+      value: {fileID: 21300000, guid: 70019afd62b45744789ebb8ac49e13bf, type: 2}
+    attribute: m_Sprite
+    path: mausoleum_mg_w2_urn_Animation
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 1031338772
+      attribute: 3305885265
+      script: {fileID: 0}
+      typeID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3303432350
+      attribute: 3305885265
+      script: {fileID: 0}
+      typeID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3563283477
+      attribute: 3305885265
+      script: {fileID: 0}
+      typeID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3470300416
+      attribute: 3305885265
+      script: {fileID: 0}
+      typeID: 212
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3470300416
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: 205db3990bcfa3341a1e64602bfb6c41, type: 2}
+    - {fileID: 21300000, guid: 879deccae9e55804da5b8c782ea6576c, type: 2}
+    - {fileID: 21300000, guid: 05c1b0a58f3266a459f0cc1d24fbb0d9, type: 2}
+    - {fileID: 21300000, guid: f3589fbe2f64af84aa209ca90fac1977, type: 2}
+    - {fileID: 21300000, guid: d2c1518a3228b294a89a6987616105de, type: 2}
+    - {fileID: 21300000, guid: d07b1a170b0e7c242ba0e96ab4334b51, type: 2}
+    - {fileID: 21300000, guid: 96e9d750de0641445a6f97aa1c9800b4, type: 2}
+    - {fileID: 21300000, guid: 2a7d3e199f259894db8ac0789234a869, type: 2}
+    - {fileID: 21300000, guid: dc3aed961cdd4154da08fa1ffd4462bb, type: 2}
+    - {fileID: 21300000, guid: 2f00eed476d141e4ba8cb0909b5840df, type: 2}
+    - {fileID: 21300000, guid: e1fa458cf6f38084ea169ea719310c4a, type: 2}
+    - {fileID: 21300000, guid: 962e70e948fea0c42b39db86c1e33ea9, type: 2}
+    - {fileID: 21300000, guid: f1fc2c27e42e55e429cbb9a212bbe612, type: 2}
+    - {fileID: 21300000, guid: 437b194ad89b27149856fc42393d5faa, type: 2}
+    - {fileID: 21300000, guid: ac9e6d16870aef047b3ecb9c9e61bdb7, type: 2}
+    - {fileID: 21300000, guid: 55a661e463f43ba48850380b513ea731, type: 2}
+    - {fileID: 21300000, guid: 441730ac8d73c1d43a8d9c04e30d717e, type: 2}
+    - {fileID: 21300000, guid: a6c57d8e408c9604abc1d20ee2b2b394, type: 2}
+    - {fileID: 21300000, guid: 75b5189d11dce4f4a94344784f923800, type: 2}
+    - {fileID: 21300000, guid: 9dc00905037790747b9ab6ca1df4aea2, type: 2}
+    - {fileID: 21300000, guid: 5da84b6898c96eb4197db06b223733c8, type: 2}
+    - {fileID: 21300000, guid: 70019afd62b45744789ebb8ac49e13bf, type: 2}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.9166668
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: anim_platformer_forest_lobber_shoot
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: c8431283a1ee89341a9efcdcf6c43451, type: 2}
+    - time: 0.083333336
+      value: {fileID: 21300000, guid: 7359867769a793a49a54a04fe7ea9cc0, type: 2}
+    - time: 0.16666667
+      value: {fileID: 21300000, guid: 89692ec753ecff14b9c603ec45013ce0, type: 2}
+    - time: 0.20833333
+      value: {fileID: 21300000, guid: 90924c282bc9e1c488f07a814ceaba63, type: 2}
+    - time: 0.25
+      value: {fileID: 21300000, guid: 86c6aed9918c68b4cae8a4a28bafbe0d, type: 2}
+    - time: 0.29166666
+      value: {fileID: 21300000, guid: 89692ec753ecff14b9c603ec45013ce0, type: 2}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: 54e95f5f46c516946b8f68dad32d6d87, type: 2}
+    - time: 0.375
+      value: {fileID: 21300000, guid: 86c6aed9918c68b4cae8a4a28bafbe0d, type: 2}
+    - time: 0.41666666
+      value: {fileID: 21300000, guid: 54e95f5f46c516946b8f68dad32d6d87, type: 2}
+    - time: 0.45833334
+      value: {fileID: 21300000, guid: 86c6aed9918c68b4cae8a4a28bafbe0d, type: 2}
+    - time: 0.5
+      value: {fileID: 21300000, guid: 54e95f5f46c516946b8f68dad32d6d87, type: 2}
+    - time: 0.5833333
+      value: {fileID: 21300000, guid: 9f49f3ed647b1fb48a74596cf3225ff4, type: 2}
+    - time: 0.625
+      value: {fileID: 21300000, guid: 5f69c006d3c9bdb4a8c18d8e4f84d4de, type: 2}
+    - time: 0.7083333
+      value: {fileID: 21300000, guid: 0fe3e2578f7b03c479feedc7988fe4e5, type: 2}
+    - time: 0.75
+      value: {fileID: 21300000, guid: eff5e3c2e7dd0f44a83a82ac4d2e7d47, type: 2}
+    - time: 0.7916667
+      value: {fileID: 21300000, guid: 56a2e4f6ae350e749bb1db782c91fb8c, type: 2}
+    - time: 0.8333334
+      value: {fileID: 21300000, guid: 7852d2044bd27644dbc44fcf7404d5f4, type: 2}
+    - time: 0.87500006
+      value: {fileID: 21300000, guid: 276b38ad11a68964783fa534143757a8, type: 2}
+    - time: 0.91666675
+      value: {fileID: 21300000, guid: 529cebd6f0d789341b27cbbf8c77b028, type: 2}
+    - time: 0.95833343
+      value: {fileID: 21300000, guid: 6b91c0f1d0d2394499ad76a3c675dd96, type: 2}
+    attribute: m_Sprite
+    path:
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: c8431283a1ee89341a9efcdcf6c43451, type: 2}
+    - {fileID: 21300000, guid: 7359867769a793a49a54a04fe7ea9cc0, type: 2}
+    - {fileID: 21300000, guid: 89692ec753ecff14b9c603ec45013ce0, type: 2}
+    - {fileID: 21300000, guid: 90924c282bc9e1c488f07a814ceaba63, type: 2}
+    - {fileID: 21300000, guid: 86c6aed9918c68b4cae8a4a28bafbe0d, type: 2}
+    - {fileID: 21300000, guid: 89692ec753ecff14b9c603ec45013ce0, type: 2}
+    - {fileID: 21300000, guid: 54e95f5f46c516946b8f68dad32d6d87, type: 2}
+    - {fileID: 21300000, guid: 86c6aed9918c68b4cae8a4a28bafbe0d, type: 2}
+    - {fileID: 21300000, guid: 54e95f5f46c516946b8f68dad32d6d87, type: 2}
+    - {fileID: 21300000, guid: 86c6aed9918c68b4cae8a4a28bafbe0d, type: 2}
+    - {fileID: 21300000, guid: 54e95f5f46c516946b8f68dad32d6d87, type: 2}
+    - {fileID: 21300000, guid: 9f49f3ed647b1fb48a74596cf3225ff4, type: 2}
+    - {fileID: 21300000, guid: 5f69c006d3c9bdb4a8c18d8e4f84d4de, type: 2}
+    - {fileID: 21300000, guid: 0fe3e2578f7b03c479feedc7988fe4e5, type: 2}
+    - {fileID: 21300000, guid: eff5e3c2e7dd0f44a83a82ac4d2e7d47, type: 2}
+    - {fileID: 21300000, guid: 56a2e4f6ae350e749bb1db782c91fb8c, type: 2}
+    - {fileID: 21300000, guid: 7852d2044bd27644dbc44fcf7404d5f4, type: 2}
+    - {fileID: 21300000, guid: 276b38ad11a68964783fa534143757a8, type: 2}
+    - {fileID: 21300000, guid: 529cebd6f0d789341b27cbbf8c77b028, type: 2}
+    - {fileID: 21300000, guid: 6b91c0f1d0d2394499ad76a3c675dd96, type: 2}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1.0000001
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events:
+  - time: 0
+    functionName: PlayLobberSound
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.625
+    functionName: Shoot
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f152bc704e0f48ad1dddf8769b971c7f, type: 3}
+  m_Name: data
+  m_EditorClassIdentifier:
+  _properties:
+  - theme: 0
+    background:
+      layers:
+      - speed: 0.05
+        sortingOrder: -100
+      - speed: 0.1
+        sortingOrder: -200
+      - speed: 0.15
+        sortingOrder: -300
+      - speed: 0.2
+        sortingOrder: -400
+      - speed: 0.25
+        sortingOrder: -500
+      - speed: 0.3
+        sortingOrder: -600
+      - speed: 0.35
+        sortingOrder: -700
+      - speed: 0.4
+        sortingOrder: -800
+      - speed: 0.45000002
+        sortingOrder: -900
+      - speed: 0.5
+        sortingOrder: -1000
+      - speed: 0.55
+        sortingOrder: -1100
+      - speed: 0.6
+        sortingOrder: -1200
+      - speed: 0.65000004
+        sortingOrder: -1300
+      - speed: 0.7
+        sortingOrder: -1400
+      - speed: 0.75
+        sortingOrder: -1500
+      - speed: 0.8
+        sortingOrder: -1600
+      - speed: 0.85
+        sortingOrder: -1700
+      - speed: 0.90000004
+        sortingOrder: -1800
+      - speed: 0.95
+        sortingOrder: -1900
+      - speed: 1
+        sortingOrder: -2000
+    foreground:
+      layers:
+      - speed: -0.05
+        sortingOrder: 100
+      - speed: -0.1
+        sortingOrder: 200
+      - speed: -0.15
+        sortingOrder: 300
+      - speed: -0.2
+        sortingOrder: 400
+      - speed: -0.25
+        sortingOrder: 500
+      - speed: -0.3
+        sortingOrder: 600
+      - speed: -0.35
+        sortingOrder: 700
+      - speed: -0.4
+        sortingOrder: 800
+      - speed: -0.45000002
+        sortingOrder: 900
+      - speed: -0.5
+        sortingOrder: 1000
+      - speed: -0.55
+        sortingOrder: 1100
+      - speed: -0.6
+        sortingOrder: 1200
+      - speed: -0.65000004
+        sortingOrder: 1300
+      - speed: -0.7
+        sortingOrder: 1400
+      - speed: -0.75
+        sortingOrder: 1500
+      - speed: -0.8
+        sortingOrder: 1600
+      - speed: -0.85
+        sortingOrder: 1700
+      - speed: -0.90000004
+        sortingOrder: 1800
+      - speed: -0.95
+        sortingOrder: 1900
+      - speed: -1
+        sortingOrder: 2000

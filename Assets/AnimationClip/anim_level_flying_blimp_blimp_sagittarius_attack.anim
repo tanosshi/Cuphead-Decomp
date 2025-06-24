@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: anim_level_flying_blimp_blimp_sagittarius_attack
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 150
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 150
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Radius
+    path:
+    classID: 58
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 105
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 105
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Offset.x
+    path:
+    classID: 58
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 20
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      - serializedVersion: 2
+        time: 0.33333334
+        value: 20
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Offset.y
+    path:
+    classID: 58
+    script: {fileID: 0}
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: feba2cac8723e2c41a76734b685cea32, type: 2}
+    - time: 0.041666668
+      value: {fileID: 21300000, guid: cf99065846fdddf4cb9eb44fffe9c803, type: 2}
+    - time: 0.083333336
+      value: {fileID: 21300000, guid: e276853676feff346959ecd4bedf3ae6, type: 2}
+    - time: 0.125
+      value: {fileID: 21300000, guid: 49833006064ed964d82d4e01834f3bb1, type: 2}
+    - time: 0.16666667
+      value: {fileID: 21300000, guid: cef1c603db0a8cc48bc81339a8b4b555, type: 2}
+    - time: 0.20833333
+      value: {fileID: 21300000, guid: 7d657dddb510c6248bc1d61a4e6d8002, type: 2}
+    - time: 0.25
+      value: {fileID: 21300000, guid: 3e3441b08b101f142993fd6d4900fe85, type: 2}
+    - time: 0.29166666
+      value: {fileID: 21300000, guid: aea8b8e6dfeb4fd4b92aa7622f583ba1, type: 2}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: e7f5aa585632180408511c92ae0f3264, type: 2}
+    attribute: m_Sprite
+    path:
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 0}
+    - time: 0.041666668
+      value: {fileID: 21300000, guid: accfae1f24437fc4696e5f76305c1752, type: 2}
+    - time: 0.083333336
+      value: {fileID: 21300000, guid: b7d7a92c54e96ff4fba63cda053c8c80, type: 2}
+    - time: 0.125
+      value: {fileID: 21300000, guid: 869acdb8f533f9c4d9c7c21a16612996, type: 2}
+    - time: 0.16666667
+      value: {fileID: 21300000, guid: 9118e47b559a6514a89c80bb7a76796b, type: 2}
+    - time: 0.20833333
+      value: {fileID: 21300000, guid: 853943c80cda8b1439e13ab159ff9d5b, type: 2}
+    - time: 0.25
+      value: {fileID: 21300000, guid: e891e0ebc6593d843b69bd9542519865, type: 2}
+    - time: 0.29166666
+      value: {fileID: 21300000, guid: 6d6e090c899315c4ab76746bb5c07498, type: 2}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: b3025a254ca35044080c98b8d8e1c4e7, type: 2}
+    attribute: m_Sprite
+    path: SagArrow
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 1500472792
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 0
+      attribute: 1984117138
+      script: {fileID: 0}
+      typeID: 58
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 413499720
+      script: {fileID: 0}
+      typeID: 58
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 1872933342
+      script: {fileID: 0}
+      typeID: 58
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: feba2cac8723e2c41a76734b685cea32, type: 2}
+    - {fileID: 21300000, guid: cf99065846fdddf4cb9eb44fffe9c803, type: 2}
+    - {fileID: 21300000, guid: e276853676feff346959ecd4bedf3ae6, type: 2}
+    - {fileID: 21300000, guid: 49833006064ed964d82d4e01834f3bb1, type: 2}
+    - {fileID: 21300000, guid: cef1c603db0a8cc48bc81339a8b4b555, type: 2}
+    - {fileID: 21300000, guid: 7d657dddb510c6248bc1d61a4e6d8002, type: 2}
+    - {fileID: 21300000, guid: 3e3441b08b101f142993fd6d4900fe85, type: 2}
+    - {fileID: 21300000, guid: aea8b8e6dfeb4fd4b92aa7622f583ba1, type: 2}
+    - {fileID: 21300000, guid: e7f5aa585632180408511c92ae0f3264, type: 2}
+    - {fileID: 0}
+    - {fileID: 21300000, guid: accfae1f24437fc4696e5f76305c1752, type: 2}
+    - {fileID: 21300000, guid: b7d7a92c54e96ff4fba63cda053c8c80, type: 2}
+    - {fileID: 21300000, guid: 869acdb8f533f9c4d9c7c21a16612996, type: 2}
+    - {fileID: 21300000, guid: 9118e47b559a6514a89c80bb7a76796b, type: 2}
+    - {fileID: 21300000, guid: 853943c80cda8b1439e13ab159ff9d5b, type: 2}
+    - {fileID: 21300000, guid: e891e0ebc6593d843b69bd9542519865, type: 2}
+    - {fileID: 21300000, guid: 6d6e090c899315c4ab76746bb5c07498, type: 2}
+    - {fileID: 21300000, guid: b3025a254ca35044080c98b8d8e1c4e7, type: 2}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.375
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events:
+  - time: 0.041666668
+    functionName: FireArrowsStars
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

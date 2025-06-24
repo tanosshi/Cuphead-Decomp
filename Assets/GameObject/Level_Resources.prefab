@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1561989198208745
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4149085806751168}
+  - component: {fileID: 114938318914891706}
+  m_Layer: 0
+  m_Name: Level_Resources
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4149085806751168
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1561989198208745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1399, y: -1262, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114938318914891706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1561989198208745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c70f5f275aaf02e06b8e1f68b8da97aa, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  levelHUD: {fileID: 114330642268702180, guid: 785e57ad051340849aabcd0cf7d1d5c9, type: 2}
+  levelGUI: {fileID: 114852190085825536, guid: e3bc7c4cc2b5f814ba555e37f2b9b3f0, type: 2}
+  levelAudio: {fileID: 114239533338323895, guid: a26c1e4883460414db9eecc3b9d5e95b, type: 2}
+  levelBossDeathExplosion: {fileID: 114546065884359196, guid: 3508af4624945d1478185ad5f5a6290b, type: 2}
+  levelPlayer: {fileID: 114888465726001514, guid: dda398f671df48447a47ca0aa8ecbe7b, type: 2}
+  planePlayer: {fileID: 114874789602028195, guid: a5a89e6291d4acb429887a62330dc950, type: 2}
+  joinEffect: {fileID: 114448014949649217, guid: d588f26067b0b6945a5d5a979c32906a, type: 2}
+  platformingIntro: {fileID: 114682306229868872, guid: 7f08572d51a96c34a8988d46f9d3fa7a, type: 2}
+  platformingWin: {fileID: 114574575772833780, guid: 41ece93fe6566b844a427265647801c4, type: 2}
+  levelIntro: {fileID: 114711260561267817, guid: a9b33423692b49b40ad7883120888d73, type: 2}
+  levelKO: {fileID: 114031946590321491, guid: 6c9c69921615caf47b05bdfdbd564936, type: 2}
+  levelUIInteractionDialogue: {fileID: 114838939229124586, guid: 5434342fa7a3a574bb91cee82a6577c1, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1561989198208745}
+  m_IsPrefabParent: 1

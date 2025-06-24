@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1273549721210652
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4106088139233580}
+  - component: {fileID: 114335082324216392}
+  m_Layer: 0
+  m_Name: Level_Weapon_Boomerang
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4106088139233580
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1273549721210652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -305.6371, y: 78.07532, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114335082324216392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1273549721210652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4be1ff31c12402afafe2de91ca3f4f41, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  exPrefab: {fileID: 114782262058480378, guid: 5f3ba7b40237b0a4daa55bb1065edf6e, type: 2}
+  exEffectPrefab: {fileID: 114098835075410279, guid: 1951532cfb66bcb488e4d0ffb351167e, type: 2}
+  exFiringHitboxPrefab: {fileID: 0}
+  basicPrefab: {fileID: 114430182536472582, guid: 1477d8e1091bf9b4392e2018b86c9305, type: 2}
+  basicEffectPrefab: {fileID: 114955712878854808, guid: 2ad30fd1a6dbc524fae4a1f4b6fa340c, type: 2}
+  basicFiringHitboxPrefab: {fileID: 114939467690368967, guid: 0664d5fb3810f8a45893185d2f471cff, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1273549721210652}
+  m_IsPrefabParent: 1

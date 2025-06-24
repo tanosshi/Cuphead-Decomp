@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: anim_level_dice_palace_rabbit_attack
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: bf939d59ae268ff45a55575775dda719, type: 2}
+    - time: 0.041666668
+      value: {fileID: 21300000, guid: 9e882303518710f429911a640ddb2288, type: 2}
+    - time: 0.083333336
+      value: {fileID: 21300000, guid: 81fba3cf0c57ef446babfab0d6ddc153, type: 2}
+    - time: 0.125
+      value: {fileID: 21300000, guid: 1f323219817f9d94fbacc283c554e186, type: 2}
+    - time: 0.16666667
+      value: {fileID: 21300000, guid: 0a841e5341b1a444d9bb0b784b481839, type: 2}
+    - time: 0.20833333
+      value: {fileID: 21300000, guid: 6fdc133f359ec5b47b473e717eddf9e7, type: 2}
+    - time: 0.25
+      value: {fileID: 21300000, guid: 558d203e2e6607d408143f8e86d35e1a, type: 2}
+    - time: 0.29166666
+      value: {fileID: 21300000, guid: 18a4feefcce3bfc44a840971b2631ff7, type: 2}
+    attribute: m_Sprite
+    path:
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: bf939d59ae268ff45a55575775dda719, type: 2}
+    - {fileID: 21300000, guid: 9e882303518710f429911a640ddb2288, type: 2}
+    - {fileID: 21300000, guid: 81fba3cf0c57ef446babfab0d6ddc153, type: 2}
+    - {fileID: 21300000, guid: 1f323219817f9d94fbacc283c554e186, type: 2}
+    - {fileID: 21300000, guid: 0a841e5341b1a444d9bb0b784b481839, type: 2}
+    - {fileID: 21300000, guid: 6fdc133f359ec5b47b473e717eddf9e7, type: 2}
+    - {fileID: 21300000, guid: 558d203e2e6607d408143f8e86d35e1a, type: 2}
+    - {fileID: 21300000, guid: 18a4feefcce3bfc44a840971b2631ff7, type: 2}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.3333333
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events:
+  - time: 0
+    functionName: SFX_Attack
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: SFX_StickTwirlStop
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

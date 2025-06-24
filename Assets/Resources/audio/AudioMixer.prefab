@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1088895173584463
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4264507046718712}
+  - component: {fileID: 114537936502582310}
+  m_Layer: 0
+  m_Name: AudioMixer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4264507046718712
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088895173584463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114537936502582310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088895173584463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0e47c141c4671d047a932f3b2b9a269, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mixer: {fileID: 24100000, guid: fd83554788990014e98d255b796cb01e, type: 2}
+  audioGroups:
+    _master: {fileID: 24300000, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _master_Options: {fileID: 24300136, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _bgm_Options: {fileID: 24300128, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _sfx_Options: {fileID: 24300140, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _bgm: {fileID: 24300060, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _levelBgm: {fileID: 24300080, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _musicSting: {fileID: 24300104, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _sfx: {fileID: 24300110, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _levelSfx: {fileID: 24300028, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _ambience: {fileID: 24300100, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _creatures: {fileID: 24300084, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _announcer: {fileID: 24300048, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _super: {fileID: 24300132, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _noise: {fileID: 24300034, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _noiseConstant: {fileID: 24300040, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _noiseShortterm: {fileID: 24300124, guid: fd83554788990014e98d255b796cb01e, type: 2}
+    _noise1920s: {fileID: 24300088, guid: fd83554788990014e98d255b796cb01e, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1088895173584463}
+  m_IsPrefabParent: 1

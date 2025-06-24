@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: anim_platformer_forest_mushroom_poison_cloud_trail_D
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 77d2857262d8b2643bbbeed1f8fc92fc, type: 2}
+    - time: 0.041666668
+      value: {fileID: 21300000, guid: 96bb6aa4b70d6ac49a6c8357af4aab60, type: 2}
+    - time: 0.083333336
+      value: {fileID: 21300000, guid: 2ca6d8094fa500743adbc399cf4aa73f, type: 2}
+    - time: 0.125
+      value: {fileID: 21300000, guid: d9609917cfbde414c94d5c5e5adbf5cb, type: 2}
+    - time: 0.16666667
+      value: {fileID: 21300000, guid: 0a42313aa8ce19d4da446425d6ba933e, type: 2}
+    - time: 0.20833333
+      value: {fileID: 21300000, guid: 3da595d2eddd3394c8dfe08e105a720b, type: 2}
+    - time: 0.25
+      value: {fileID: 21300000, guid: 8593e50276193404ab78563bb2079126, type: 2}
+    - time: 0.29166666
+      value: {fileID: 21300000, guid: 57da9efcc1f24da4595eba23719dfdff, type: 2}
+    - time: 0.625
+      value: {fileID: 21300000, guid: 57da9efcc1f24da4595eba23719dfdff, type: 2}
+    attribute: m_Sprite
+    path:
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: 77d2857262d8b2643bbbeed1f8fc92fc, type: 2}
+    - {fileID: 21300000, guid: 96bb6aa4b70d6ac49a6c8357af4aab60, type: 2}
+    - {fileID: 21300000, guid: 2ca6d8094fa500743adbc399cf4aa73f, type: 2}
+    - {fileID: 21300000, guid: d9609917cfbde414c94d5c5e5adbf5cb, type: 2}
+    - {fileID: 21300000, guid: 0a42313aa8ce19d4da446425d6ba933e, type: 2}
+    - {fileID: 21300000, guid: 3da595d2eddd3394c8dfe08e105a720b, type: 2}
+    - {fileID: 21300000, guid: 8593e50276193404ab78563bb2079126, type: 2}
+    - {fileID: 21300000, guid: 57da9efcc1f24da4595eba23719dfdff, type: 2}
+    - {fileID: 21300000, guid: 57da9efcc1f24da4595eba23719dfdff, type: 2}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.6666667
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events:
+  - time: 0.33333334
+    functionName: OnEffectComplete
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3f9cde367123032742cd9ff5c9b74d, type: 3}
+  m_Name: DefaultEnglish
+  m_EditorClassIdentifier:
+  _yes: Yes
+  _no: No
+  _add: Add
+  _replace: Replace
+  _remove: Remove
+  _cancel: Cancel
+  _none: None
+  _okay: Okay
+  _done: Done
+  _default: Default
+  _assignControllerWindowTitle: Choose Controller
+  _assignControllerWindowMessage: Press any button or move an axis on the controller you would like to use.
+  _controllerAssignmentConflictWindowTitle: Controller Assignment
+  _controllerAssignmentConflictWindowMessage: '{0} is already assigned to {1}. Do you want to assign this controller to {2} instead?'
+  _elementAssignmentPrePollingWindowMessage: First center or zero all sticks and axes and press any button or wait for the timer to finish.
+  _joystickElementAssignmentPollingWindowMessage: Now press a button or move an axis to assign it to {0}.
+  _keyboardElementAssignmentPollingWindowMessage: Press a key to assign it to {0}. Modifier keys may also be used. To assign a modifier key alone, hold it down for 1 second.
+  _mouseElementAssignmentPollingWindowMessage: Press a mouse button or move an axis to assign it to {0}.
+  _elementAssignmentConflictWindowMessage: Assignment Conflict
+  _elementAlreadyInUseBlocked: '{0} is already in use cannot be replaced.'
+  _elementAlreadyInUseCanReplace: '{0} is already in use. Do you want to replace it?'
+  _elementAlreadyInUseCanReplace_conflictAllowed: '{0} is already in use. Do you want to replace it? You may also choose to add the assignment anyway.'
+  _mouseAssignmentConflictWindowTitle: Mouse Assignment
+  _mouseAssignmentConflictWindowMessage: The mouse is already assigned to {0}. Do you want to assign the mouse to {1} instead?
+  _calibrateControllerWindowTitle: Calibrate Controller
+  _calibrateAxisStep1WindowTitle: Calibrate Zero
+  _calibrateAxisStep1WindowMessage: Center or zero {0} and press any button or wait for the timer to finish.
+  _calibrateAxisStep2WindowTitle: Calibrate Range
+  _calibrateAxisStep2WindowMessage: Move {0} through its entire range then press any button or wait for the timer to finish.
+  _inputBehaviorSettingsWindowTitle: Sensitivity Settings
+  _restoreDefaultsWindowTitle: Restore Defaults
+  _restoreDefaultsWindowMessage_onePlayer: This will restore the default input configuration. Are you sure you want to do this?
+  _restoreDefaultsWindowMessage_multiPlayer: This will restore the default input configuration for all players. Are you sure you want to do this?
+  _actionColumnLabel: ACTIONS
+  _keyboardColumnLabel: KEYBOARD
+  _mouseColumnLabel: MOUSE
+  _controllerColumnLabel: CONTROLLER
+  _removeControllerButtonLabel: Remove
+  _calibrateControllerButtonLabel: Calibrate
+  _assignControllerButtonLabel: Assign Controller
+  _inputBehaviorSettingsButtonLabel: Sensitivity
+  _doneButtonLabel: Done
+  _restoreDefaultsButtonLabel: Restore Defaults
+  _playersGroupLabel: 'PLAYERS:'
+  _controllerSettingsGroupLabel: 'CONTROLLER:'
+  _assignedControllersGroupLabel: 'ASSIGNED CONTROLLERS:'
+  _settingsGroupLabel: 'SETTINGS:'
+  _mapCategoriesGroupLabel: 'CATEGORIES:'
+  _calibrateWindow_deadZoneSliderLabel: 'Dead Zone:'
+  _calibrateWindow_zeroSliderLabel: 'Zero:'
+  _calibrateWindow_sensitivitySliderLabel: 'Sensitivity:'
+  _calibrateWindow_invertToggleLabel: Invert
+  _calibrateWindow_calibrateButtonLabel: Calibrate
+  _customEntries: []

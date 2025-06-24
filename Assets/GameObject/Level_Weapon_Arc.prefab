@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1526438876279819
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4406120021585568}
+  - component: {fileID: 114248050834124408}
+  m_Layer: 0
+  m_Name: Level_Weapon_Arc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4406120021585568
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1526438876279819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -763.24365, y: -166.30447, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114248050834124408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1526438876279819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6a5a4b7b6a0958e6ea7602aac7277ef, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  exPrefab: {fileID: 114095427967767898, guid: 622ad8aee57cf644c9a4b2a3623642de, type: 2}
+  exEffectPrefab: {fileID: 114098835075410279, guid: 1951532cfb66bcb488e4d0ffb351167e, type: 2}
+  exFiringHitboxPrefab: {fileID: 0}
+  basicPrefab: {fileID: 114754189534512524, guid: aceef9a32472bed49b8c58cf6e3f3b05, type: 2}
+  basicEffectPrefab: {fileID: 114934776206657772, guid: 2c3fd650720659842a91a35c1c3af8ce, type: 2}
+  basicFiringHitboxPrefab: {fileID: 114939467690368967, guid: 0664d5fb3810f8a45893185d2f471cff, type: 2}
+  projectilesOnGround: []
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1526438876279819}
+  m_IsPrefabParent: 1

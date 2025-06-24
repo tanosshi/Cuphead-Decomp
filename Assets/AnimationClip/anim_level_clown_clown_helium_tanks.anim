@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: anim_level_clown_clown_helium_tanks
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 97ba8dc332bd0ae4f993c8add4dacaa6, type: 2}
+    - time: 0.083333336
+      value: {fileID: 21300000, guid: 84b57328ed2a3be4fa38412cf76866df, type: 2}
+    - time: 0.16666667
+      value: {fileID: 21300000, guid: de9fd73d785fcd1439d6682eb9cef234, type: 2}
+    - time: 0.25
+      value: {fileID: 21300000, guid: 29faaa29783582040a001df629abc3e4, type: 2}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: 8361fa2fbf5ec9a4ca8f5cb05aa08fb3, type: 2}
+    - time: 0.41666666
+      value: {fileID: 21300000, guid: f3bfac364e1337d4bac3040db6795277, type: 2}
+    - time: 0.5
+      value: {fileID: 21300000, guid: cb09976b9456a6741951f81412d0a933, type: 2}
+    - time: 0.5833333
+      value: {fileID: 21300000, guid: 7f1cc577bba38894db734c33096d2e65, type: 2}
+    - time: 0.6666667
+      value: {fileID: 21300000, guid: 983ced94ca48d5e4185f98bda79a29b4, type: 2}
+    - time: 0.75
+      value: {fileID: 21300000, guid: bfae28353844d494098963b09936407c, type: 2}
+    - time: 0.8333333
+      value: {fileID: 21300000, guid: e8bc14f2fed65ee4e829a9f8ae5118fe, type: 2}
+    - time: 0.9166667
+      value: {fileID: 21300000, guid: 978ec62ba9108424eb1c9174427a5970, type: 2}
+    - time: 1
+      value: {fileID: 21300000, guid: 85f2f30a439558b48b9350d749944e1c, type: 2}
+    - time: 1.0833334
+      value: {fileID: 21300000, guid: d33bb726783182f42ba1350ec7f590b7, type: 2}
+    attribute: m_Sprite
+    path: HeliumTank_Left_3
+    classID: 212
+    script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: c4728228e5f8fbf47bf217644f9cd1f9, type: 2}
+    - time: 0.083333336
+      value: {fileID: 21300000, guid: 09870d08e2fad034fa912387b1cd6f25, type: 2}
+    - time: 0.16666667
+      value: {fileID: 21300000, guid: 13ddbac20ca68c543b2564d5147b0ab4, type: 2}
+    - time: 0.25
+      value: {fileID: 21300000, guid: d682073069e7bf04db80e787b5b6ac00, type: 2}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: 8dfa45dc7d9833145aebc794d83414bf, type: 2}
+    - time: 0.41666666
+      value: {fileID: 21300000, guid: cb293a79ffc064c4e9f124cb1665e9c4, type: 2}
+    - time: 0.5
+      value: {fileID: 21300000, guid: 4ac896d01568acc4aba2f296ae723ea2, type: 2}
+    - time: 0.5833333
+      value: {fileID: 21300000, guid: 2331a30d01fcfaa448be6a3f452be389, type: 2}
+    - time: 0.6666667
+      value: {fileID: 21300000, guid: 53537c730a2c8a24bba7f33d82174c2a, type: 2}
+    - time: 0.75
+      value: {fileID: 21300000, guid: f04ef8844e27cf3469fd834e807fe461, type: 2}
+    - time: 0.8333333
+      value: {fileID: 21300000, guid: b55991a2a5a0e9045b2435f81fbbbe64, type: 2}
+    - time: 0.9166667
+      value: {fileID: 21300000, guid: 259c80f0e0165564cb7b52ba02a7be8e, type: 2}
+    - time: 1
+      value: {fileID: 21300000, guid: be2775d5074b65b45ac02465a247722b, type: 2}
+    - time: 1.0833334
+      value: {fileID: 21300000, guid: fc9c914ac6e5ab241b53a604b273dbfb, type: 2}
+    attribute: m_Sprite
+    path: HeliumTank_Right_3
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 12
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 3644223936
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 1823674767
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: 97ba8dc332bd0ae4f993c8add4dacaa6, type: 2}
+    - {fileID: 21300000, guid: 84b57328ed2a3be4fa38412cf76866df, type: 2}
+    - {fileID: 21300000, guid: de9fd73d785fcd1439d6682eb9cef234, type: 2}
+    - {fileID: 21300000, guid: 29faaa29783582040a001df629abc3e4, type: 2}
+    - {fileID: 21300000, guid: 8361fa2fbf5ec9a4ca8f5cb05aa08fb3, type: 2}
+    - {fileID: 21300000, guid: f3bfac364e1337d4bac3040db6795277, type: 2}
+    - {fileID: 21300000, guid: cb09976b9456a6741951f81412d0a933, type: 2}
+    - {fileID: 21300000, guid: 7f1cc577bba38894db734c33096d2e65, type: 2}
+    - {fileID: 21300000, guid: 983ced94ca48d5e4185f98bda79a29b4, type: 2}
+    - {fileID: 21300000, guid: bfae28353844d494098963b09936407c, type: 2}
+    - {fileID: 21300000, guid: e8bc14f2fed65ee4e829a9f8ae5118fe, type: 2}
+    - {fileID: 21300000, guid: 978ec62ba9108424eb1c9174427a5970, type: 2}
+    - {fileID: 21300000, guid: 85f2f30a439558b48b9350d749944e1c, type: 2}
+    - {fileID: 21300000, guid: d33bb726783182f42ba1350ec7f590b7, type: 2}
+    - {fileID: 21300000, guid: c4728228e5f8fbf47bf217644f9cd1f9, type: 2}
+    - {fileID: 21300000, guid: 09870d08e2fad034fa912387b1cd6f25, type: 2}
+    - {fileID: 21300000, guid: 13ddbac20ca68c543b2564d5147b0ab4, type: 2}
+    - {fileID: 21300000, guid: d682073069e7bf04db80e787b5b6ac00, type: 2}
+    - {fileID: 21300000, guid: 8dfa45dc7d9833145aebc794d83414bf, type: 2}
+    - {fileID: 21300000, guid: cb293a79ffc064c4e9f124cb1665e9c4, type: 2}
+    - {fileID: 21300000, guid: 4ac896d01568acc4aba2f296ae723ea2, type: 2}
+    - {fileID: 21300000, guid: 2331a30d01fcfaa448be6a3f452be389, type: 2}
+    - {fileID: 21300000, guid: 53537c730a2c8a24bba7f33d82174c2a, type: 2}
+    - {fileID: 21300000, guid: f04ef8844e27cf3469fd834e807fe461, type: 2}
+    - {fileID: 21300000, guid: b55991a2a5a0e9045b2435f81fbbbe64, type: 2}
+    - {fileID: 21300000, guid: 259c80f0e0165564cb7b52ba02a7be8e, type: 2}
+    - {fileID: 21300000, guid: be2775d5074b65b45ac02465a247722b, type: 2}
+    - {fileID: 21300000, guid: fc9c914ac6e5ab241b53a604b273dbfb, type: 2}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1.1666667
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events:
+  - time: 0
+    functionName: HeliumTankSFX
+    data:
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

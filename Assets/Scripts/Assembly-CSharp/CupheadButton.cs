@@ -1,0 +1,25 @@
+public enum CupheadButton
+{
+	MoveHorizontal = 0,
+	MoveVertical = 1,
+	Jump = 2,
+	Shoot = 3,
+	Super = 4,
+	SwitchWeapon = 5,
+	Lock = 6,
+	Dash = 7,
+	Pause = 8,
+	NextPage = 11,
+	PreviousPage = 12,
+	Accept = 13,
+	Cancel = 14,
+	EquipMenu = 15,
+	MenuUp = 16,
+	MenuLeft = 18,
+	MenuDown = 19,
+	MenuRight = 20,
+	Debug = 21,
+	MenuHorizontal = 22,
+	MenuVertical = 23,
+	None = 100000
+}
