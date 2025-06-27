@@ -2,7 +2,9 @@
 
 ### Originally for Unity 2017.4.9, upgraded for 2023.1.20f
 
-Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era, i.e. traditional hand drawn cel animation, watercolor backgrounds, and original jazz recordings.
+The DLC has not been pushed yet.
+
+Another helping of classic Cuphead action awaits you in Cuphead - The Delicious Last Course! Brothers Cuphead and Mugman are joined by the clever, adventurous Ms. Chalice for a rollicking adventure on a previously undiscovered Inkwell Isle! With the aid of new weapons, magical charms, and Ms. Chalice’s unique abilities, players will take on a new cast of fearsome, larger than life bosses to assist the jolly Chef Saltbaker in Cuphead’s final challenging quest!
 
 ![tanos-frontend](https://raw.githubusercontent.com/tanosshi/Cuphead-Decomp/refs/heads/main/thumbnail.png)
 
