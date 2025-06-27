@@ -1,6 +1,6 @@
 # Cuphead Decomp 🚧
 
-### Originally for Unity 5.6.2p1, upgraded for 2023.1.20f
+### Originally for Unity 2017.4.9, upgraded for 2023.1.20f
 
 Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era, i.e. traditional hand drawn cel animation, watercolor backgrounds, and original jazz recordings.
 
@@ -12,13 +12,15 @@ Todo
 
 - Decompile source ✔️
 
-- Fix decompiled codes ⏳
+- Push files for The Delicious Last Course ⏳
 
 - Upgrade Unity version ⏳
 
-- Clean up code for readability ⏳
+- Fix decompiled codes 🛠️
 
-- Optimize for global use ⏳
+- Clean up code for readability 🛠️
+
+- Optimize for global use 🛠️
 
 - Make models work 🛠️
 
