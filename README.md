@@ -8,7 +8,7 @@ Cuphead is a classic run and gun action game heavily focused on boss battles. In
 
 Todo
 
-✔️ Completed ⏳ Working on it 🛠️ Lowest priority
+✔️ Completed ⏳ Waiting for a better machine to do it 🛠️ Lowest priority, least expected
 
 - Decompile source ✔️
 
