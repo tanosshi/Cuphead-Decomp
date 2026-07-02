@@ -62,8 +62,8 @@ public class RetroArcadePaddleShip : RetroArcadeEnemy
 			yield return new WaitForFixedUpdate();
 			if (((int)moveDir.y > 0 && base.transform.position.y > (float)Level.Current.Ceiling - 80f) || ((int)moveDir.y < 0 && base.transform.position.y < (float)Level.Current.Ground + 80f))
 			{
-				ref Trilean2 reference = ref moveDir;
-				reference.y = (int)reference.y * -1;
+				// Fixed: Modified the struct field directly without using 'ref'
+				moveDir.y = (int)moveDir.y * -1;
 			}
 			base.transform.AddPosition(0f, (float)moveDir.y * ySpeed * CupheadTime.FixedDelta);
 			paddle.SetPosition(null, (float)Level.Current.Ground + 20f);
@@ -77,8 +77,8 @@ public class RetroArcadePaddleShip : RetroArcadeEnemy
 			yield return new WaitForFixedUpdate();
 			if (((int)moveDir.x > 0 && base.transform.position.x > 300f) || ((int)moveDir.x < 0 && base.transform.position.x < -300f))
 			{
-				ref Trilean2 reference = ref moveDir;
-				reference.x = (int)reference.x * -1;
+				// Fixed: Modified the struct field directly without using 'ref'
+				moveDir.x = (int)moveDir.x * -1;
 			}
 			base.transform.AddPosition((float)moveDir.x * p.xSpeed * CupheadTime.FixedDelta);
 		}

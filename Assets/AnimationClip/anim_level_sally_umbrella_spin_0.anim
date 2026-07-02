@@ -2,11 +2,11 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!74 &7400000
 AnimationClip:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: anim_level_sally_umbrella_spin
+  m_Name: anim_level_sally_umbrella_spin_0
+  serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -108,7 +108,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Offset.x
-    path:
+    path: 
     classID: 61
     script: {fileID: 0}
   - curve:
@@ -130,7 +130,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Offset.y
-    path:
+    path: 
     classID: 61
     script: {fileID: 0}
   - curve:
@@ -152,7 +152,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Size.x
-    path:
+    path: 
     classID: 61
     script: {fileID: 0}
   - curve:
@@ -174,7 +174,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Size.y
-    path:
+    path: 
     classID: 61
     script: {fileID: 0}
   - curve:
@@ -328,7 +328,7 @@ AnimationClip:
     - time: 0.29166666
       value: {fileID: 21300000, guid: 1ad06262762b8ea4b93604f0cfa3f5a9, type: 2}
     attribute: m_Sprite
-    path:
+    path: 
     classID: 212
     script: {fileID: 0}
   - curve:
@@ -359,13 +359,6 @@ AnimationClip:
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
     genericBindings:
-    - serializedVersion: 2
-      path: 2822386185
-      attribute: 3305885265
-      script: {fileID: 0}
-      typeID: 61
-      customType: 0
-      isPPtrCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 0
@@ -399,7 +392,14 @@ AnimationClip:
       attribute: 4
       script: {fileID: 0}
       typeID: 4
-      customType: 14
+      customType: 24
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2822386185
+      attribute: 3305885265
+      script: {fileID: 0}
+      typeID: 61
+      customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 0

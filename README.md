@@ -12,7 +12,7 @@ Todo
 
 - Decompile source ✔️
 
-- Load assets by opening the game in Unity 5.6.2p1 ⏳
+- Load assets by opening the game in Unity 5.6.2p1 ✔️
 
 - Upgrade Unity version 🛠️
 
